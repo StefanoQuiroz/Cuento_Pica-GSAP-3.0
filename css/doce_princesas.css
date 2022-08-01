@@ -1,0 +1,1295 @@
+.creditos .imagen_portada{
+/*    display: grid;*/
+    background-image: url(../img/doce_princesas/portada.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+/*    background-color: #fff;*/
+}
+
+#final_cuento .creditos {
+    grid-template-rows: 44px;
+}
+
+#final_cuento .creditos .imagen_portada{
+    background-image: url(../img/doce_princesas/contraportada.jpg);
+    background-position: top center;
+}
+
+.title h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.spriteA{ 
+    background-image: url("../img/doce_princesas/spriteA.png");
+}
+.spriteB{ 
+    background-image: url("../img/doce_princesas/spriteB.png");
+}
+.spriteC{ 
+    background-image: url("../img/doce_princesas/spriteC.png");
+}
+
+#escena_00 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_0_LUZ.jpg");
+}
+#escena_00 .fondo.sombra{ 
+    background-image: url("../img/doce_princesas/fondo_esc_0_SOMBRA.jpg");
+}
+#escena_00 .interact .princesa1{ 
+    width: 49px;
+    height: 73px;
+    top: 197px;
+    left: 207px;
+}
+#escena_00 .interact .princesa2{ 
+    width: 65px;
+    height: 65px;
+    top: 412px;
+    left: 750px;
+    background-position: -49px 0px;
+}
+#escena_00 .interact .princesa3{ 
+    width: 73px;
+    height: 101px;
+    top: 632px;
+    left: 758px;
+    background-position: -114px 0px;
+}
+#escena_00 .interact .princesa4{ 
+    width: 62px;
+    height: 94px;
+    top: 208px;
+    left: 1340px;
+    background-position: -186px 0px;
+}
+#escena_00 .interact.sombra .princesa1{
+    top: 198px;
+    background-position: -249px 0px;
+}
+#escena_00 .interact.sombra .princesa2{
+    top: 413px;
+    background-position: -298px 0px;
+}
+#escena_00 .interact.sombra .princesa3{
+    top: 633px;
+    background-position: -363px 0px;
+}
+#escena_00 .interact.sombra .princesa4{
+    top: 209px;
+    background-position: -435px 0px;
+}
+#escena_00 .interact .princesa1.flipped{ 
+    width: 34px;
+    height: 74px;
+    top: 195px;
+    left: 222px;
+    background-position: 0px -101px;
+}
+#escena_00 .interact .princesa2.flipped{ 
+    width: 69px;
+    height: 74px;
+    top: 438px;
+    left: 744px;
+    background-position: -34px -101px;
+}
+#escena_00 .interact .princesa3.flipped{ 
+    width: 68px;
+    height: 110px;
+    top: 625px;
+    left: 766px;
+    background-position: -103px -101px;
+}
+#escena_00 .interact .princesa4.flipped{ 
+    width: 78px;
+    height: 85px;
+    top: 215px;
+    left: 1297px;
+    background-position: -171px -101px;
+}
+#escena_00 .interact.sombra .princesa1.flipped{ 
+    background-position: -250px -101px;
+}
+#escena_00 .interact.sombra .princesa2.flipped{
+    left: 746px;
+    background-position: -284px -101px;
+}
+#escena_00 .interact.sombra .princesa3.flipped{
+    background-position: -353px -101px;
+}
+#escena_00 .interact.sombra .princesa4.flipped{ 
+    background-position: -419px -101px;
+}
+
+#escena_01 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_1.png");
+}
+#escena_01 .timelapse{
+    top: 291px;
+    left: 32px;
+/*    z-index: 2;*/
+}
+/*
+#escena_01 .timelapse::after{
+    width: 2000px;
+    height: 1000px;
+    display: block;
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+}
+*/
+#escena_01 .timelapse .ventana1{
+    top: 1px;
+/*    left: -1px;*/
+    width: 400px;
+    height: 510px;
+    background-position: 0px -211px; 
+/*    display: none;*/
+} 
+#escena_01 .timelapse .ventana2{
+    width: 400px;
+    height: 510px;
+    left: 1606px;
+    top: 1px;
+    background-position: -400px -211px; 
+/*    display: none;*/
+} 
+#escena_01 .nubeA,
+#escena_01 .nubeB{
+    width: 161px;
+    height: 78px;
+    background-position: -498px 0px; 
+} 
+#escena_01 .nube1{
+    left: 1900px;
+    top: -20px;
+}
+#escena_01 .nube2{
+    left: 1900px;
+    top: 400px;
+}
+#escena_01 .nube3{
+    left: 406px;
+    top: 300px;
+}
+#escena_01 .nube4{
+    left: 406px;
+    top: 100px;
+}
+#escena_01 .nubeB{
+    background-position: -498px -78px; 
+}
+#escena_01 .princesa1{
+    width: 80px;
+    height: 131px;
+    top: 375px;
+    left: -4px;
+    background-position: 0px -1369px; 
+}
+#escena_01 .princesa2{
+    width: 71px;
+    height: 143px;
+    top: 366px;
+    left: 231px;
+    background-position: -80px -1384px; 
+}
+#escena_01 .princesa3{
+    width: 77px;
+    height: 148px;
+    top: 360px;
+    left: 326px;
+    background-position: -169px -1340px; 
+}
+#escena_01 .ceja{
+    top: 322px;
+    left: 859px;
+    width: 96px;
+    height: 35px;
+    background-position: -498px -156px; 
+}
+#escena_01 .timelapse .flores1 .flor{
+    height: 53px;
+}
+#escena_01 .timelapse .flores1 .flor1{
+    width: 34px;
+    top: 232px;
+    left: 111px;
+    background-position: -658px 0px;
+}
+#escena_01 .timelapse .flores1 .flor2{
+    width: 32px;
+    top: 294px;
+    left: 65px;
+    background-position: -692px 0px;
+}
+#escena_01 .timelapse .flores1 .flor3{
+    width: 32px;
+    top: 343px;
+    left: 125px;
+    background-position: -724px 0px;
+}
+#escena_01 .timelapse .flores1 .flor4{
+    width: 24px;
+    top: 202px;
+    left: 273px;
+    background-position: -756px 0px;
+}
+#escena_01 .timelapse .flores1 .flor5{
+    width: 29px;
+    top: 240px;
+    left: 304px;
+    background-position: -780px 0px;
+}
+#escena_01 .timelapse .flores1 .flor6{
+    width: 45px;
+    top: 333px;
+    left: 260px;
+    background-position: -809px 0px;
+}
+#escena_01 .timelapse .flores1 .flor7{
+    width: 23px;
+    top: 200px;
+    left: 1710px;
+    background-position: -854px 0px;
+}
+#escena_01 .timelapse .flores1 .flor8{
+    width: 29px;
+    top: 240px;
+    left: 1674px;
+    background-position: -877px 0px;
+}
+#escena_01 .timelapse .flores1 .flor9{
+    width: 44px;
+    top: 334px;
+    left: 1704px;
+    background-position: -906px 0px;
+}
+#escena_01 .timelapse .flores1 .flor10{
+    width: 33px;
+    top: 233px;
+    left: 1864px;
+    background-position: -950px 0px;
+}
+#escena_01 .timelapse .flores1 .flor11{
+    width: 26px;
+    top: 263px;
+    left: 1964px;
+    background-position: -988px 0px;
+}
+#escena_01 .timelapse .flores1 .flor12{
+    width: 34px;
+    top: 343px;
+    left: 1850px;
+    background-position: -1014px 0px;
+}
+
+#escena_01 .timelapse .flores2 .flor{
+    height: 39px;
+}
+#escena_01 .timelapse .flores2 .flor1{
+    width: 30px;
+    top: 224px;
+    left: 123px;
+    background-position: -658px -53px;
+}
+#escena_01 .timelapse .flores2 .flor2{
+    width: 30px;
+    top: 285px;
+    left: 58px;
+    background-position: -688px -53px;
+}
+#escena_01 .timelapse .flores2 .flor3{
+    width: 34px;
+    top: 335px;
+    left: 131px;
+    background-position: -718px -53px;
+}
+#escena_01 .timelapse .flores2 .flor4{
+    width: 30px;
+    top: 194px;
+    left: 274px;
+    background-position: -752px -53px;
+}
+#escena_01 .timelapse .flores2 .flor5{
+    width: 38px;
+    top: 233px;
+    left: 302px;
+    background-position: -782px -53px;
+}
+#escena_01 .timelapse .flores2 .flor6{
+    width: 32px;
+    top: 325px;
+    left: 279px;
+    background-position: -820px -53px;
+}
+#escena_01 .timelapse .flores2 .flor7{
+    width: 30px;
+    top: 193px;
+    left: 1704px;
+    background-position: -852px -53px;
+}
+#escena_01 .timelapse .flores2 .flor8{
+    width: 37px;
+    top: 234px;
+    left: 1668px;
+    background-position: -882px -53px;
+}
+#escena_01 .timelapse .flores2 .flor9{
+    width: 32px;
+    top: 327px;
+    left: 1699px;
+    background-position: -919px -53px;
+}
+#escena_01 .timelapse .flores2 .flor10{
+    width: 29px;
+    top: 225px;
+    left: 1856px;
+    background-position: -951px -53px;
+}
+#escena_01 .timelapse .flores2 .flor11{
+    width: 32px;
+    top: 305px;
+    left: 1946px;
+    background-position: -980px -53px;
+}
+#escena_01 .timelapse .flores2 .flor12{
+    width: 31px;
+    top: 337px;
+    left: 1845px;
+    background-position: -1012px -53px;
+}
+
+#escena_01 .timelapse .flores3 .flor{
+    height: 23px;
+}
+#escena_01 .timelapse .flores3 .flor1{
+    width: 20px;
+    top: 225px;
+    left: 123px;
+    background-position: -658px -92px;
+}
+#escena_01 .timelapse .flores3 .flor2{
+    width: 20px;
+    top: 286px;
+    left: 72px;
+    background-position: -678px -92px;
+}
+#escena_01 .timelapse .flores3 .flor3{
+    width: 20px;
+    top: 338px;
+    left: 128px;
+    background-position: -698px -92px;
+}
+#escena_01 .timelapse .flores3 .flor4{
+    width: 23px;
+    top: 195px;
+    left: 271px;
+    background-position: -718px -92px;
+}
+#escena_01 .timelapse .flores3 .flor5{
+    width: 18px;
+    top: 234px;
+    left: 300px;
+    background-position: -741px -92px;
+}
+#escena_01 .timelapse .flores3 .flor6{
+    width: 19px;
+    top: 259px;
+    left: 321px;
+    background-position: -759px -92px;
+}
+#escena_01 .timelapse .flores3 .flor7{
+    width: 25px;
+    top: 192px;
+    left: 1711px;
+    background-position: -778px -92px;
+}
+#escena_01 .timelapse .flores3 .flor8{
+    width: 19px;
+    top: 239px;
+    left: 1689px;
+    background-position: -803px -92px;
+}
+#escena_01 .timelapse .flores3 .flor9{
+    width: 19px;
+    top: 263px;
+    left: 1669px;
+    background-position: -822px -92px;
+}
+#escena_01 .timelapse .flores3 .flor10{
+    width: 19px;
+    top: 229px;
+    left: 1867px;
+    background-position: -841px -92px;
+}
+#escena_01 .timelapse .flores3 .flor11{
+    width: 21px;
+    top: 229px;
+    left: 1947px;
+    background-position: -860px -92px;
+}
+#escena_01 .timelapse .flores3 .flor12{
+    width: 21px;
+    top: 336px;
+    left: 1856px;
+    background-position: -860px -92px;
+}
+
+#escena_02 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_2.jpg");
+}
+
+#escena_02 .soldado{
+    top: 65px;
+    left: 722px;
+}
+#escena_02 .soldado .cuerpo{
+    width: 729px;
+    height: 860px;
+    top: 155px;
+    background-position: -1072px 0px; 
+}
+#escena_02 .soldado .cabeza{
+    width: 252px;
+    height: 352px;
+    left: 235px;
+    background-position: -798px -523px; 
+}
+#escena_02 .mano{
+    width: 275px;
+    height: 372px;
+    top: 523px;
+    left: 704px;
+    background-position: -798px -115px; 
+}
+
+
+#escena_03 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_3.jpg");
+}
+
+#escena_03 .soldado{
+    top: 209px;
+    left: 1388px;
+    width: 342px;
+    height: 826px;
+    background-position: -3204px 0px;
+}
+#escena_03 .soldado2{
+    width: 449px;
+    height: 770px;
+    top: 473px;
+    left: -140px;
+    background-position: -1228px -860px;
+    z-index: 2;
+}
+#escena_03 .princesa1{
+    top: 242px;
+    left: 908px;
+    width: 754px;
+    height: 838px;
+    background-position: -2450px 0px;
+/*    display: none;*/
+}
+#escena_03 .princesa2{
+    top: 116px;
+    left: -30px;
+    width: 649px;
+    height: 964px;
+    background-position: -1801px 0px;
+    
+}
+#escena_03 .princesa3{
+    top: 148px;
+    left: 383px;
+    width: 574px;
+    height: 964px;
+    background-position: -3463px 0px;
+}
+#escena_04 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_4.jpg");
+/*    background-image: url("../img/doce_princesas/testpos_esc_4.jpg");*/
+}
+#escena_04 .soldado1,
+#escena_04 .soldado2,
+/*#escena_04 .soldado3,*/
+#escena_04 .soldado4,
+#escena_04 .soldado5{
+    width: 128px;
+    height: 310px;
+    background-position: -256px -745px;
+}
+#escena_04 .soldado2{
+    top: 217px;
+    left: 508px;
+    background-position: 0px -745px;
+}
+#escena_04 .soldado1{
+    top: 470px;
+    left: -11px;
+}
+#escena_04 .soldado3{
+    width: 449px;
+    height: 770px;
+    top: 590px;
+    left: 260px;
+    background-position: -1228px -860px;
+}
+#escena_04 .soldado4{
+    top: 381px;
+    left: 1121px;
+}
+#escena_04 .soldado5{
+    top: 451px;
+    left: 1522px;
+    background-position: -129px -745px;
+}
+
+#escena_04 .hoja_plata_A,
+#escena_04 .hoja_plata_B{
+    width: 47px;
+    height: 86px;
+    background-position: 0px -1055px;
+}
+#escena_04 .hoja_plata_B{
+    background-position: -47px -1055px;
+}
+#escena_04 .hoja_plata_1{
+    top: 215px;
+    left: 237px;
+}
+#escena_04 .hoja_plata_2{
+    top: 203px;
+    left: 143px;
+}
+#escena_04 .hoja_plata_3{
+    top: 297px;
+    left: 164px;
+}
+#escena_04 .hoja_plata_4{
+    top: 130px;
+    left: 284px;
+}
+#escena_04 .hoja_plata_5{
+    top: 169px;
+    left: 179px;
+}
+#escena_04 .hoja_plata_6{
+    top: -30px;
+    left: 294px;
+}
+#escena_04 .hoja_plata_7{
+    top: 122px;
+    left: 215px;
+}
+#escena_04 .hoja_plata_8{
+    top: -1px;
+    left: 211px;
+}
+#escena_04 .hoja_plata_9{
+    top: 54px;
+    left: 247px;
+}
+#escena_04 .hoja_plata_10{
+    top: -33px;
+    left: 41px;
+}
+#escena_04 .hoja_plata_11{
+    top: 78px;
+    left: 159px;
+}
+#escena_04 .hoja_plata_12{
+    top: 78px;
+    left: 42px;
+    z-index: 2;
+}
+#escena_04 .hoja_plata_13{
+    top: 29px;
+    left: 104px;
+}
+#escena_04 .hoja_plata_14{
+    top: -15px;
+    left: 144px;
+}
+#escena_04 .hoja_plata_15{
+    top: 60px;
+    left: 62px;
+}
+#escena_04 .hoja_plata_16{
+    top: 171px;
+    left: 65px;
+}
+#escena_04 .hoja_plata_17{
+    top: 243px;
+    left: 85px;
+}
+#escena_04 .hoja_plata_18{
+    top: 303px;
+    left: 90px;
+}
+#escena_04 .hoja_plata_19{
+    top: 305px;
+    left: 36px;
+}
+#escena_04 .hoja_plata_20{
+    top: 210px;
+    left: 16px;
+}
+#escena_04 .hoja_plata_21{
+    top: 176px;
+    left: -11px;
+}
+#escena_04 .hoja_plata_22{
+    top: 247px;
+    left: -8px;
+}
+#escena_04 .hoja_plata_23{
+    top: 119px;
+    left: -14px;
+}
+#escena_04 .hoja_plata_24{
+    top: 67px;
+    left: -13px;
+}
+#escena_04 .hoja_plata_25{
+    top: 309px;
+    left: -38px;
+}
+#escena_04 .hoja_plata_26{
+    top: 5px;
+    left: -15px;
+}
+#escena_04 .hoja_plata_27{
+    top: -66px;
+    left: -38px;
+}
+
+#escena_04 .hoja_oro_A,
+#escena_04 .hoja_oro_B{
+    width: 23px;
+    height: 49px;
+    background-position: 0px -1141px;
+}
+#escena_04 .hoja_oro_B{
+    background-position: -23px -1141px;
+}
+#escena_04 .hoja_oro_1{
+    top:426px;
+    left: 892px;
+}
+#escena_04 .hoja_oro_2{
+    top:454px;
+    left: 894px;
+}
+#escena_04 .hoja_oro_3{
+    top:389px;
+    left: 902px;
+}
+#escena_04 .hoja_oro_4{
+    top:441px;
+    left: 882px;
+}
+#escena_04 .hoja_oro_5{
+    top:393px;
+    left: 856px;
+}
+#escena_04 .hoja_oro_6{
+    top:419px;
+    left: 864px;
+}
+#escena_04 .hoja_oro_7{
+    top:334px;
+    left: 850px;
+}
+#escena_04 .hoja_oro_8{
+    top:334px;
+    left: 886px;
+}
+#escena_04 .hoja_oro_9{
+    top:316px;
+    left: 924px;
+    z-index: 2;
+}
+#escena_04 .hoja_oro_10{
+    top:343px;
+    left: 931px;
+}
+#escena_04 .hoja_oro_11{
+    top:303px;
+    left: 929px;
+}
+#escena_04 .hoja_oro_12{
+    top:309px;
+    left: 962px;
+}
+#escena_04 .hoja_oro_13{
+    top:278px;
+    left: 881px;
+}
+#escena_04 .hoja_oro_14{
+    top:415px;
+    left: 818px;
+}
+#escena_04 .hoja_oro_15{
+    top:264px;
+    left: 927px;
+}
+#escena_04 .hoja_oro_16{
+    top:366px;
+    left: 809px;
+    z-index: 2;
+}
+#escena_04 .hoja_oro_17{
+    top:217px;
+    left: 929px;
+    z-index: 2;
+}
+#escena_04 .hoja_oro_18{
+    top:375px;
+    left: 794px;
+}
+#escena_04 .hoja_oro_19{
+    top:209px;
+    left: 948px;
+}
+#escena_04 .hoja_oro_20{
+    top:346px;
+    left: 792px;
+}
+#escena_04 .hoja_oro_21{
+    top:184px;
+    left: 943px;
+}
+#escena_04 .hoja_oro_22{
+    top:304px;
+    left: 820px;
+    z-index: 2;
+}
+#escena_04 .hoja_oro_23{
+    top:211px;
+    left: 885px;
+}
+#escena_04 .hoja_oro_24{
+    top:276px;
+    left: 808px;
+}
+#escena_04 .hoja_oro_25{
+    top:269px;
+    left: 828px;
+}
+#escena_04 .hoja_oro_26{
+    top:240px;
+    left: 852px;
+}
+#escena_04 .hoja_oro_27{
+    top:198px;
+    left: 855px;
+}
+
+#escena_04 .hoja_diamante_A,
+#escena_04 .hoja_diamante_B{
+    width: 38px;
+    height: 60px;
+    background-position: -94px -1141px;
+/*    background-color: rgba(255,255,0,0.3);*/
+}
+#escena_04 .hoja_diamante_B{
+    background-position: -134px -1141px;
+}
+#escena_04 .hoja_diamante_1{
+    top: 350px;
+    left: 1600px;
+}
+#escena_04 .hoja_diamante_2{
+    top: 340px;
+    left: 1659px;
+}
+
+#escena_04 .hoja_diamante_3{
+    top: 338px;
+    left: 1544px;
+}
+#escena_04 .hoja_diamante_4{
+    top: 334px;
+    left: 1507px;
+}
+#escena_04 .hoja_diamante_5{
+    top: 304px;
+    left: 1576px;
+}
+#escena_04 .hoja_diamante_6{
+    top: 276px;
+    left: 1536px;
+}
+#escena_04 .hoja_diamante_7{
+    top: 278px;
+    left: 1609px;
+    z-index: 2;
+}
+#escena_04 .hoja_diamante_8{
+    top: 289px;
+    left: 1693px;
+}
+#escena_04 .hoja_diamante_9{
+    top: 259px;
+    left: 1653px;
+}
+#escena_04 .hoja_diamante_10{
+    top: 247px;
+    left: 1588px;
+}
+
+#escena_04 .hoja_diamante_11{
+    top: 218px;
+    left: 1604px;
+}
+#escena_04 .hoja_diamante_12{
+    top: 206px;
+    left: 1643px;
+}
+#escena_04 .hoja_diamante_13{
+    top: 215px;
+    left: 1664px;
+}
+#escena_04 .hoja_diamante_14{
+    top: 233px;
+    left: 1724px;
+}
+#escena_04 .hoja_diamante_15{
+    top: 184px;
+    left: 1703px;
+    z-index: 3;
+}
+#escena_04 .hoja_diamante_16{
+    top: 163px;
+    left: 1503px;
+}
+#escena_04 .hoja_diamante_17{
+    top: 146px;
+    left: 1639px;
+}
+#escena_04 .hoja_diamante_18{
+    top: 152px;
+    left: 1731px;
+    z-index: 2;
+}
+#escena_04 .hoja_diamante_19{
+    top: 125px;
+    left: 1694px;
+}
+#escena_04 .hoja_diamante_20{
+    top: 110px;
+    left: 1570px;
+}
+#escena_04 .hoja_diamante_21{
+    top: 89px;
+    left: 1637px;
+}
+#escena_04 .hoja_diamante_22{
+    top: 49px;
+    left: 1623px;
+}
+#escena_04 .hoja_diamante_23{
+    top: 46px;
+    left: 1677px;
+}
+#escena_04 .hoja_diamante_24{
+    top: 36px;
+    left: 1659px;
+}
+
+#escena_04 .arbol_cubriente{
+    width: 370px;
+    height: 485px;
+    top: 27px;
+    left: 1272px;
+    background-position: -340px -1074px;
+    z-index: 5;
+/*    display: none;*/
+}
+
+.estrellaA,
+.estrellaB{
+    background-image: url(../img/doce_princesas/estrella.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+#escena_05 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_5.jpg");
+}
+
+#escena_05 .baile1{
+    width: 762px;
+    height: 843px;
+    top: 100px;
+    left:980px;
+    background-position: 0px -931px;
+/*    display: none;*/
+}
+#escena_05 .baile2{
+    width: 426px;
+    height: 651px;
+    top: 220px;
+    left:940px;
+    background-position: -762px -932px;
+/*    display: none;*/
+}
+#escena_05 .baile3{
+    width: 523px;
+    height: 616px;
+    top: 150px;
+    left:-50px;
+    background-position: -1661px -931px;
+/*    display: none;*/
+}
+#escena_05 .princesa{
+    width: 1920px;
+    height: 1080px;
+    background-position: -2222px -654px;
+/*    display: none;*/
+}
+#escena_05 .princesa .ceja{
+    width: 85px;
+    height: 38px;
+    top: 330px;
+    left: 631px;
+    background-position: -705px -744px;
+/*    opacity: 0.4;*/
+}
+#escena_05 .manzana1.entera{
+    width: 112px;
+    height: 121px;
+    top: 770px;
+    left: 128px;
+    background-position: -593px -744px;
+/*    display: none;*/
+}
+#escena_05 .manzana1.mordida{
+    width: 103px;
+    height: 116px;
+    top: 777px;
+    left: 137px;
+    background-position: -384px -744px;
+}
+#escena_05 .manzana2.entera{
+    width: 107px;
+    height: 99px;
+    top: 776px;
+    left: 415px;
+    background-position: -384px -862px;
+/*    display: none;*/
+}
+#escena_05 .manzana2.mordida{
+    width: 107px;
+    height: 96px;
+    top: 779px;
+    left: 414px;
+    background-position: -486px -744px;
+/*    display: none;*/
+}
+#escena_05 .vino1 .vinoA{
+    width: 88px;
+    height: 31px;
+    top: 652px;
+    left: 1021px;
+    background-position: -705px -782px;
+/*    display: none;*/
+}
+#escena_05 .vino1 .vinoB{
+    width: 121px;
+    height: 67px;
+    top: 615px;
+    left: 1006px;
+    background-position: -625px -864px;
+/*    display: none;*/
+}
+#escena_05 .vino1 .vinoC{
+    width: 132px;
+    height: 98px;
+    top: 584px;
+    left: 1002px;
+    background-position: -493px -864px;
+/*    display: none;*/
+}
+#escena_05 .vino2 .vinoA{
+    width: 97px;
+    height: 33px;
+    top: 696px;
+    left: 1630px;
+    background-position: -627px -932px;
+/*    display: none;*/
+}
+#escena_05 .vino2 .vinoB{
+    width: 136px;
+    height: 77px;
+    top: 652px;
+    left: 1607px;
+    background-position: -384px -965px;
+/*    display: none;*/
+}
+#escena_05 .vino2 .vinoC{
+    width: 139px;
+    height: 108px;
+    top: 622px;
+    left: 1607px;
+    background-position: -520px -965px;
+/*    display: none;*/
+}
+
+#escena_06 .fondo{           
+    background-image: url("../img/doce_princesas/fondo_esc_6.jpg");
+}
+
+#escena_06 .luz1{
+    width: 61px;
+    height: 68px;
+    top: 190px;
+    left: 110px;
+    background-position: 0px -1189px;
+}
+#escena_06 .luz2{
+    width: 62px;
+    height: 66px;
+    top: 121px;
+    left: 584px;
+    background-position: -108px -1318px;
+}
+#escena_06 .luz3{
+    width: 107px;
+    height: 112px;
+    top: 439px;
+    left: 314px;
+    background-position: 0px -1257px;
+}
+#escena_06 .luz4{
+    width: 90px;
+    height: 97px;
+    top: 431px;
+    left: 1030px;
+    background-position: -108px -1221px;
+}
+#escena_06 .luz5{
+    width: 105px;
+    height: 119px;
+    top: 81px;
+    left: 338px;
+    background-position: -198px -1220px;
+}
+#escena_06 .bote_container{
+    width: 598px;
+    height: 548px;
+    top: 127px;
+    left: 1206px;
+}
+#escena_06 .bote{
+    width: 598px;
+    height: 548px;
+    background-position: 1586px -838px;
+}
+
+#escena_06 .soldado{
+    width: 148px;
+    height: 164px;
+    top: 288px;
+    left: 78px;
+    background-position: -187px -1055px;
+}
+#escena_06 .agua{
+    width: 156px;
+    height: 65px;
+    top: 631px;
+    left: 1336px;
+    background-position: -748px -875px;
+}
+#escena_06 .planta{
+    width: 1560px;
+    height: 340px;
+    top: 317px;
+    left: 1543px;
+    background-position: -726px -940px;
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_7.jpg");
+}
+
+#escena_07 .princesa1{
+    width: 309px;
+    height: 1000px;
+    top: 331px;
+    left: 37px;
+}
+#escena_07 .princesa2{
+    width: 310px;
+    height: 1000px;
+    top: 278px;
+    left: 140px;
+    background-position: -309px 0px;
+}
+#escena_07 .princesa3{
+    width: 300px;
+    height: 1000px;
+    top: 223px;
+    left: 245px;
+    background-position: -629px 0px;
+}
+#escena_07 .princesa4{
+    width: 300px;
+    height: 1000px;
+    top: 148px;
+    left: 353px;
+    background-position: -939px 0px;
+}
+#escena_07 .princesa5{
+    width: 303px;
+    height: 1000px;
+    top: 85px;
+    left: 480px;
+    background-position: -1240px 0px;
+}
+#escena_07 .princesa6{
+    width: 189px;
+    height: 366px;
+    top: 49px;
+    left: 666px;
+    background-position: -3783px 0px;
+}
+#escena_07 .princesa7{
+    width: 309px;
+    height: 1000px;
+    top: 360px;
+    left: 1496px;
+    background-position: -3474px 0px;
+}
+#escena_07 .princesa8{
+    width: 309px;
+    height: 1000px;
+    top: 281px;
+    left: 1395px;
+    background-position: -3165px 0px;
+}
+#escena_07 .princesa9{
+    width: 300px;
+    height: 1000px;
+    top: 223px;
+    left: 1298px;
+    background-position: -2857px 0px;
+}
+#escena_07 .princesa10{
+    width: 300px;
+    height: 1000px;
+    top: 138px;
+    left: 1188px;
+    background-position: -2543px 0px;
+}
+#escena_07 .princesa11{
+    width: 303px;
+    height: 1000px;
+    top: 95px;
+    left: 1058px;
+    background-position: -2240px 0px;
+}
+#escena_07 .princesa12{
+    width: 197px;
+    height: 378px;
+    top: 37px;
+    left: 987px;
+    background-position: -3783px -579px;
+}
+#escena_07 .soldado{
+    width: 700px;
+    height: 1016px;
+    top: 64px;
+    left: 582px;
+    background-position: -1542px 0px;
+/*    display: none;*/
+}
+#escena_07 .plato{
+    width: 306px;
+    height: 214px;
+    top: 508px;
+    left: 191px;
+    background-position: -3783px -366px;
+}
+
+#escena_08 .fondo{ 
+    background-image: url("../img/doce_princesas/fondo_esc_8.jpg");
+}
+#escena_08 .baile1{
+    width: 524px;
+    height: 617px;
+    top: 313px;
+    left: -58px;
+}
+#escena_08 .baile2{
+    width: 793px;
+    height: 916px;
+    top: 188px;
+    left: 145px;
+    background-position: -524px 0px;
+    z-index: 5;
+}
+#escena_08 .baile3{
+    width: 764px;
+    height: 916px;
+    top: 198px;
+    left: 706px;
+    background-position: -1317px 0px;
+    z-index: 4;
+}
+#escena_08 .baile4{
+    width: 562px;
+    height: 652px;
+    top: 285px;
+    left: 1391px;
+    background-position: -2081px 0px;
+    z-index: 2;
+}
+#escena_08 .baile5{
+    top: 284px;
+    left: 734px;
+    width: 450px;
+    height: 652px;
+    background-position: -1211px -932px;
+    z-index: 3;
+}
+
+#escena_00 .btn_interact.btn_luz{ top: 300px; left: 1750px; }
+#escena_00 .btn_interact.btn_princesa1{ top: 530px; left: 280px; }
+#escena_00 .btn_interact.btn_princesa2{ top: 510px; left: 1100px; }
+#escena_00 .btn_interact.btn_princesa3{ top: 950px; left: 980px; }
+#escena_00 .btn_interact.btn_princesa4{ top: 510px; left: 1370px; }
+
+#escena_01 .btn_interact{ top: 170px; left: 1400px; }
+
+#escena_02 .btn_interact{ top: 350px; left: 1370px; }
+
+#escena_03 .btn_interact{ top: 405px; left: 1325px;}
+
+#escena_04 .btn_interact.primario{ top: 552px; left: 226px; }
+#escena_04 .btn_interact.btn_arbol1{ top: 112px; left: 880px; }
+/*#escena_04 .btn_interact.btn_arbol2{ top: 352px; left: 970px; }*/
+
+#escena_05 .btn_interact{ top: 777px; left: 1489px; }
+
+#escena_06 .btn_interact{ top: 250px; left: 1435px; }
+
+#escena_07 .btn_interact{ top: 110px; left: 1460px;}
+
+#escena_08 .btn_interact{ top: 290px; left: 710px;}
+
+
+
+
+
+
+
+
+
+
+

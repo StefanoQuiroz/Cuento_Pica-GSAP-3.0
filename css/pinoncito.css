@@ -1,0 +1,610 @@
+.creditos .imagen_portada,
+#final_cuento .creditos .imagen_portada{
+/*    display: grid;*/
+    background-image: url(../img/pinoncito/portada.jpg);
+    background-position: 50%;
+    background-size: cover;
+/*
+    background-repeat: no-repeat;
+*/
+/*    background-color: #fff;*/
+}
+#final_cuento .creditos .imagen_portada{
+    background-image: url(../img/pinoncito/contraportada.jpg);
+    background-position:50%;
+    background-color: #33373a;
+}
+
+
+.title h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.spriteA{ 
+    background-image: url("../img/pinoncito/spriteA.png");
+}
+.spriteB{ 
+    background-image: url("../img/pinoncito/spriteB.png");
+}
+.spriteC{ 
+    background-image: url("../img/pinoncito/spriteC.png");
+}
+.spriteD{ 
+    background-image: url("../img/pinoncito/spriteD.png");
+}
+
+#escena_00 .fondo{ 
+    background-image: url("../img/pinoncito/esc_0_fondo.jpg");
+}
+#escena_00 .contiene_luna{
+    overflow: hidden;
+    width: 507px;
+    height: 604px;
+} 
+#escena_00 .contiene_luna .luna{
+    width: 403px;
+    height: 409px;
+    background-position: -508px 0px;
+    top: 4px;
+    left: 60px;
+} 
+#escena_00 .contiene_luna .cara_luna{
+    width: 252px;
+    height: 229px;
+    background-position: -1095px -227px;
+    top: 64px;
+    left: 34px;
+}
+#escena_00 .cubre_luna{
+    width: 508px;
+    height: 604px;
+    top: 8px;
+} 
+#escena_00 .ojo{
+    width: 31px;
+    height: 33px;
+    top: 880px;
+    left: 1560px;
+    background-position: -684px -412px;
+} 
+
+
+
+#escena_01 .fondo{ 
+    background-image: url("../img/pinoncito/esc_1_fondo.jpg");
+/*    background-image: url("../img/pinoncito/testpos1.jpg");*/
+    background-size: cover;
+}
+
+#escena_01 .guagua{
+    top: -250px;
+    left: 150px;
+    width: 1631px;
+    height: 1632px;
+}
+
+#escena_01 .guagua .cuerpo{
+    width: 1631px;
+    height: 1632px;
+    background-position: 0px -604px;
+} 
+#escena_01 .guagua .ojo1{
+    width: 10px;
+    height: 10px;
+    top: 625px; 
+    left: 653px;
+} 
+#escena_01 .guagua .ojo1 .ojo{
+    width: 82px;
+    height: 83px;
+    background-position: -509px -415px;
+} 
+#escena_01 .guagua .ojo1 .parpado{
+    width: 79px;
+    height: 39px;
+    background-position: -602px -415px;
+    top: 39px;
+    left: 3px;
+} 
+#escena_01 .guagua .ojo2{
+    width: 10px;
+    height: 10px;
+    top: 625px; 
+    left: 828px;
+}
+#escena_01 .guagua .pinon{
+    width: 542px;
+    height: 302px;
+    background-position: 0px -807px;
+}
+#escena_01 .guagua .pinon1{
+    top: 1450px;
+    left: 1340px;
+}
+#escena_01 .guagua .pinon2{
+    top: 650px;
+    left: -600px;
+}
+#escena_01 .guagua .pinon3{
+    top: 780px;
+    left: -660px;
+}
+#escena_01 .guagua .ojo2 .ojo{
+    width: 91px;
+    height: 94px;
+    background-position: -509px -498px;
+} 
+#escena_01 .guagua .ojo2 .parpado{
+    width: 79px;
+    height: 39px;
+    background-position: -602px -454px;
+    top: 48px;
+    left: 3px;
+}  
+#escena_01 .guagua .chupete{
+    width: 208px;
+    height: 213px;
+    background-position: -1095px 0px;
+    top: 715px;
+    left: 666px;
+} 
+ 
+#escena_01 .bicho{
+    width: 1268px;
+    height: 809px;
+    background-position: 0px 0px;
+    top: 130px;
+    left: 0px;
+} 
+
+#escena_01 .caja{
+    top: 230px;
+    left: 1230px;
+}
+#escena_01 .caja .cuerpo{
+    width: 656px;
+    height: 725px;
+    background-position: -1266px 0px;
+} 
+#escena_01 .caja .ojo1{
+    width: 10px;
+    height: 10px;
+    top: 178px; 
+    left: 145px;
+} 
+#escena_01 .caja .ojo1 .ojo{
+    width: 55px;
+    height: 58px;
+    background-position: -602px -498px;
+/*    background-color: darkorange;*/
+} 
+#escena_01 .caja .ojo1 .parpado{
+    width: 44px;
+    height: 17px;
+    background-position: -621px -556px;
+    top: 31px;
+    left: 9px;
+} 
+#escena_01 .caja .ojo1 .pupila{
+    width: 16px;
+    height: 19px;
+    background-position: -658px -497px;
+    top: 24px;
+    left: 28px;
+} 
+#escena_01 .caja .ojo2{
+    width: 10px;
+    height: 10px;
+    top: 193px; 
+    left: 94px;
+} 
+#escena_01 .caja .ojo2 .ojo{
+    width: 20px;
+    height: 42px;
+    background-position: -602px -556px;
+} 
+#escena_01 .caja .ojo2 .parpado{
+    width: 27px;
+    height: 12px;
+    background-position: -621px -572px;
+    top: 23px;
+    left: -3px;
+}  
+#escena_01 .caja .ojo2 .pupila{
+    width: 13px;
+    height: 22px;
+    background-position: -658px -516px;
+    top: 14px;
+    left: 5px;
+} 
+#escena_01 .mosca{
+    top: 450px;
+    left: 1305px;
+}
+#escena_01 .mosca .cuerpo{
+    width: 185px;
+    height: 227px;
+    background-position: -911px 0px;
+    left: 130px;
+    top: -4px;
+}
+#escena_01 .mosca .ala1{
+    width: 183px;
+    height: 69px;
+    background-position: -911px -227px;
+/*    background-color: tomato;*/
+} 
+#escena_01 .mosca .ala2{
+    width: 169px;
+    height: 71px;
+    background-position: -911px -297px;
+    left: 210px;
+    top: -55px;
+} 
+
+
+#escena_02 .fondo{ 
+    background-image: url("../img/pinoncito/esc_2_fondo.jpg");
+}
+#escena_02 .pinoncito{
+    width: 267px;
+    height: 391px;
+    background-position: -1347px 0px;
+    left: 760px;
+    top: 481px;
+} 
+#escena_02 .pinoncito .ojo1{
+    width: 36px;
+    height: 41px;
+    background-position: -1010px -371px;
+    left: 59px;
+    top: 101px;
+} 
+#escena_02 .pinoncito .ojo2{
+    width: 56px;
+    height: 53px;
+    background-position: -952px -371px;
+    left: 108px;
+    top: 104px;
+}  
+#escena_02 .pinoncito .boca{
+    width: 69px;
+    height: 23px;
+    background-position: -952px -464px;
+    left: 90px;
+    top: 168px;
+} 
+
+#escena_02 .gotas{}
+.gotaA{
+    width: 210px;
+    height: 210px;
+    background-position: -1347px -391px;
+    top: -210px;
+} 
+.gotaB{
+    width: 139px;
+    height: 139px;
+    background-position: -716px -409px;
+    top: -140px;
+} 
+.gotaC{
+    width: 97px;
+    height: 97px;
+    background-position: -855px -411px;
+    top: -99px;
+} 
+#escena_02 .resplandor{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#escena_03 .fondo{ 
+    background-image: url("../img/pinoncito/esc_3_fondo_oscuro.jpg");
+}
+#escena_03 .fondo2{ 
+    background-image: url("../img/pinoncito/esc_3_fondo_claro.jpg");
+}
+
+#escena_03 .brazo{
+    top: 12px;
+    left: 1339px;
+    width: 30px;
+    height: 610px;
+/*    background-color: yellow;*/
+}
+#escena_03 .brazo .oscuro,
+#escena_03 .brazo .claro{
+    width: 558px;
+    height: 647px;
+}
+#escena_03 .brazo .oscuro{
+    background-position: -558px -807px;
+}
+#escena_03 .brazo .claro{
+/*    display: none;*/
+    background-position: 0px -1111px;
+}
+
+#escena_03 .pupila1{
+    width: 16px;
+    height: 29px;
+    top: 515px;
+    left: 1108px;
+    background-position: -855px -508px;
+/*    background-color: red;*/
+}
+#escena_03 .pupila2{
+    width: 25px;
+    height: 25px;
+    top: 480px;
+    left: 1218px;
+    background-position: -871px -508px;
+}
+#escena_03 .cubreboca,
+#escena_03 .gotas{
+    width: 805px;
+    height: 536px;
+    top: 150px;
+    left: 59px;
+}
+#escena_03 .gotas{
+    overflow: hidden;
+    top: 152px;
+    left: 60px;
+    width: 803px;
+    height: 533px;
+}
+#escena_03 .cubreboca{
+    background-image: url("../img/pinoncito/cubreboca.png");
+}
+
+#escena_04 .fondo{ 
+    background-image: url("../img/pinoncito/esc_4_fondo.jpg");
+}
+
+#escena_04 .pajarito{
+    width: 1100px;
+    height: 732px;
+    top: 0px;
+    left: 700px;
+    background-position: 0px -624px;
+}
+#escena_04 .pasto{
+    width: 1920px;
+    height: 624px;
+    top: 456px;
+    left: 0px;
+    background-position: 0px 0px;
+}
+#escena_04 .paja1{
+    width: 138px;
+    height: 222px;
+    top: 240px;
+    left: 1200px;
+    background-position: -1116px -808px;
+}
+#escena_04 .paja2{
+    width: 109px;
+    height: 245px;
+    top: 200px;
+    left: 1300px;
+    background-position: -1266px -725px;
+}
+#escena_04 .paja3{
+    width: 36px;
+    height: 179px;
+    top: 480px;
+    left: 1300px;
+    background-position: -1376px -725px;
+}
+#escena_04 .paja4{
+    width: 137px;
+    height: 53px;
+    top: 520px;
+    left: 1400px;
+    background-position: -1412px -725px;
+}
+
+#escena_04 .paja5{
+    width: 114px;
+    height: 29px;
+    top: 500px;
+    left: 1100px;
+    background-position: -1549px -725px;
+}
+#escena_04 .paja6,
+#escena_04 .paja8{
+    width: 18px;
+    height: 82px;
+    top: 430px;
+    left: 1100px;
+    background-position: -1412px -777px;
+}
+#escena_04 .paja7,
+#escena_04 .paja9{
+    width: 39px;
+    height: 78px;
+    top: 400px;
+    left: 1380px;
+    background-position: -1430px -777px;
+}
+#escena_04 .paja8{
+    top: 280px;
+    left: 750px
+}
+#escena_04 .paja9{
+    top: 280px;
+    left: 680px;
+}
+
+#escena_05 .fondo{ 
+    background-image: url("../img/pinoncito/esc_5_fondo.jpg");
+}
+#escena_05 .ojo1{
+    width: 37px;
+    height: 41px;
+    top: 428px;
+    left: 839px;
+    background-position: -952px -423px;
+}
+#escena_05 .ojo2{
+    width: 47px;
+    height: 48px;
+    top: 431px;
+    left: 926px;
+    background-position: -1045px -371px;
+}
+#escena_05 .pluma{
+    width: 571px;
+    height: 224px;
+    top: 641px;
+    left: 586px;
+    background-position: -557px -1454px;
+}
+
+#escena_06 .fondo{           
+    background-image: url("../img/pinoncito/esc_6_fondo.jpg");
+}
+#escena_06 .ojo{
+    width: 44px;
+    height: 38px;
+    top: 668px;
+    left: 1618px;
+    background-position: -989px -421px;
+}
+#escena_06 .parpado{
+    width: 57px;
+    height: 19px;
+    top: 682px;
+    left: 1613px;
+    background-position: -1033px -421px;
+}
+#escena_06 .aguila{
+    top: 546px;
+    left: 13px;
+}
+#escena_06 .aguila .lejos{
+    width: 383px;
+    height: 421px;
+    background-position: -1130px -1029px;
+}
+#escena_06 .aguila .cerca{
+    width: 383px;
+    height: 421px;
+    background-position: -1511px -777px;
+}
+#escena_06 .cubre{
+    top: 461px;
+    width: 528px;
+    height: 620px;
+    background-position: -1101px -777px;
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/pinoncito/esc_7_fondo.jpg");
+}
+#escena_07 .cubre{
+    top: 0px;
+    right: 0;
+    width: 658px;
+    height: 1080px;
+    background-position: -1344px 0px;
+}
+#escena_07 .pajarito{
+    top: 38px;
+    left: 180px;
+    width: 1344px;
+    height: 827px;
+    background-position: 0px 0px;
+}
+#escena_07 .pajarito .pinon{
+    top: 429px;
+    left: 550px;
+    width: 211px;
+    height: 174px;
+    background-position: -1629px -624px;
+}
+
+
+#escena_08 .fondo{ 
+    background-image: url("../img/pinoncito/esc_8_fondo.jpg");
+}
+
+#escena_08 .contiene_luna{
+    overflow: hidden;
+    width: 408px;
+    height: 504px;
+/*    background-color: rgba(0,0,0,0.2);*/
+} 
+#escena_08 .contiene_luna .luna{
+    width: 133px;
+    height: 136px;
+    background-position: -1131px -1450px;
+    top: 80px;
+    left: 155px;
+/*    background-color: red;*/
+} 
+#escena_08 .contiene_luna .cara_luna{
+    width: 83px;
+    height: 74px;
+    background-position: -1264px -1450px;
+    top: 22px;
+    left: 11px;
+/*    background-color: aqua;*/
+}
+#escena_08 .cubre_luna{
+    width: 340px;
+    height: 368px;
+    top: 147px;
+    left: 69px;
+    background-position: -1514px -1199px;
+} 
+#escena_08 .fin{
+    width: 333px;
+    height: 197px;
+    top: 114px;
+    left: 877px;
+    background-position: -1514px -1568px;
+/*    background-color: rgba(0,0,0,0.2);*/
+} 
+
+.btn_interact{
+    border-radius: 50%;
+    background-image: radial-gradient( circle, rgba(0,0,0,0.45), rgba(0,0,0,0), rgba(0,0,0,0) );
+}
+#escena_00 .btn_interact{ top: 680px; left: 1640px; }
+
+#escena_01 .btn_interact{ top: 470px; left: 850px; }
+
+#escena_02 .btn_interact{ top: 320px; left: 1640px; }
+
+#escena_03 .btn_interact{ top: 555px; left: 1580px;}
+
+#escena_04 .btn_interact{ top: 320px; left: 1700px; }
+
+#escena_05 .btn_interact{ top: 345px; left: 1352px; }
+
+#escena_06 .btn_interact{ top: 80px; left: 1750px; }
+
+#escena_07 .btn_interact{ top: 830px; left: 1535px;}
+
+#escena_08 .btn_interact{ top: 330px; left: 1200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

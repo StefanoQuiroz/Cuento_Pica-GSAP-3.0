@@ -1,0 +1,519 @@
+.creditos .imagen_portada,
+#final_cuento .creditos .imagen_portada{
+/*    display: grid;*/
+    background-image: url(../img/taharoa/esc_2_fondo.jpg);
+    background-size: cover;
+    background-position: 36% 50%;
+    background-repeat: no-repeat;
+/*    background-color: #fff;*/
+}
+
+.title h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.spriteA{ 
+    background-image: url("../img/taharoa/spriteA.png");
+}
+.spriteB{ 
+    background-image: url("../img/taharoa/spriteB.png");
+}
+.spritePajaro{ 
+    background-image: url("../img/taharoa/pajaritos.png");
+}
+.spritePez{ 
+    background-image: url("../img/taharoa/peces.png");
+}
+#escenario, .fondo{background-color: #fff;}
+
+#subtitulos p {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9), -2px -2px 5px rgba(0,0,0,0.7), -2px -2px 2px rgba(0,0,0,0.7), 2px 2px 2px rgba(0,0,0,0.7);
+}
+#escena_00 .fondo{ 
+    background-image: url("../img/taharoa/esc_0_fondo.jpg");
+}
+#escena_00 .soplador{
+    left: 120px;
+}
+#escena_00 .soplador1{ 
+    width: 226px;
+    height: 287px;
+    background-position: -2029px 0;
+    top: 50px;
+    left: 1280px;
+}
+#escena_00 .soplador2{ 
+    width: 226px;
+    height: 287px;
+    background-position: -1926px -287px;
+    top: 50px;
+    left: 1280px;
+}
+#escena_00 .soplido{
+    width: 1200px;
+    height: 76px;
+    top: 280px;
+    left: 30px;
+} 
+#escena_00 .voluta{ right:0;} 
+#escena_00 .volutaA{ 
+    width: 198px;
+    height: 64px;
+    background-position: 0px -1066px;
+}
+#escena_00 .volutaB{ 
+    width: 193px;
+    height: 67px;
+    background-position: 0px -1142px;
+}
+#escena_00 .volutaC{ 
+    width: 203px;
+    height: 73px;
+    background-position: -198px -1066px;
+}
+#escena_00 .volutaD{ 
+    width: 170px;
+    height: 61px;
+    background-position: -193px -1142px;
+}
+#escena_00 .volutaE{ 
+    width: 144px;
+    height: 47px;
+    background-position: -402px -1066px;
+}
+#escena_00 .volutaF{ 
+    width: 122px;
+    height: 67px;
+    background-position: -363px -1142px;
+}
+#escena_00 .volutaG{ 
+    width: 77px;
+    height: 56px;
+    background-position: -546px -1066px;
+}
+#escena_00 .volutaH{ 
+    width: 93px;
+    height: 49px;
+    background-position: -485px -1142px;
+}
+#escena_00 .volutaI{ 
+    width: 136px;
+    height: 45px;
+    background-position: -714px -1117px;
+}
+#escena_00 .volutaJ{ 
+    width: 126px;
+    height: 61px;
+    background-position: -1075px -1117px;
+}
+#escena_00 .volutaK{ 
+    width: 110px;
+    height: 36px;
+    background-position: -850px -1117px;
+}
+#escena_00 .volutaL{ 
+    width: 140px;
+    height: 54px;
+    background-position: -1201px -1117px;
+}
+#escena_00 .volutaM{ 
+    width: 115px;
+    height: 35px;
+    background-position: -960px -1117px;
+}
+#escena_00 .volutaN{ 
+    width: 128px;
+    height: 58px;
+    background-position: -1341px -1072px;
+}
+
+#escena_01 .fondo{ 
+    background-image: url("../img/taharoa/esc_1_fondo.jpg");
+}
+#escena_01 .taharoa1{
+    width: 309px;
+    height: 287px;
+    top: 599px;
+    left: 1380px;
+    background-position: -1424px -646px;
+}
+#escena_01 .taharoa2{
+    width: 228px;
+    height: 254px;
+    top: 727px;
+    left: 1088px;
+    background-position: -1733px -620px;
+}
+#escena_01 .taharoa3{
+    width: 213px;
+    height: 301px;
+    top: 343px;
+    left: 193px;
+    background-position: -1488px -344px;
+}
+#escena_01 .taharoa4{
+    width: 196px;
+    height: 261px;
+    top: 360px;
+    left: 861px;
+    background-position: -1733px -190px;
+}
+#escena_01 .taharoa5{
+    width: 200px;
+    height: 168px;
+    top: 820px;
+    left: 599px;
+    background-position: -1701px -452px;
+}
+#escena_01 .taharoa6{
+    width: 157px;
+    height: 184px;
+    top: 563px;
+    left: 1231px;
+    background-position: -1872px 0px;
+}
+
+#escena_02 .fondo{ 
+    background-image: url("../img/taharoa/esc_2_fondo.jpg");
+    background-size: cover;
+}
+
+#escena_03 .fondo{ 
+    background-image: url("../img/taharoa/esc_3_fondo.jpg");
+}
+#escena_03 .interact{
+    width: 2470px;
+    height: 1450px;
+}
+#escena_03 .taharoa1{
+    width: 432px;
+    height: 551px;
+    background-position: 0px -488px;
+}
+#escena_03 .recipiente1{
+    top: 460px;
+    left: 380px;
+}
+#escena_03 .recipiente1 .base{
+    width: 137px;
+    height: 106px;
+    background-position: -1734px 0px;
+}
+#escena_03 .recipiente1 .cubre{
+    width: 137px;
+    height: 78px;
+    top: 28px;
+    background-position: -1734px -106px;
+}
+#escena_03 .recipiente2{
+    top: 560px;
+    left: 600px;
+}
+#escena_03 .recipiente2 .base{
+    width: 245px;
+    height: 190px;
+    background-position: -1489px 0px;
+}
+#escena_03 .cubre_adicional,
+#escena_03 .recipiente2 .cubre{
+    width: 245px;
+    height: 153px;
+    top: 38px;
+    background-position: -1489px -190px;
+}
+#escena_03 .cubre_adicional{
+    top: 599px;
+    left: 600px;
+    z-index: 9;
+}
+#escena_03 .recipiente3{
+    top: 730px;
+    left: 940px;
+}
+#escena_03 .recipiente3 .base{
+    width: 361px;
+    height: 244px;
+    background-position: -1128px 0px;
+}
+#escena_03 .recipiente3 .cubre{
+    width: 361px;
+    height: 200px;
+    top: 45px;
+    background-position: -1128px -244px;
+    z-index: 4;
+}
+#escena_03 .recipiente2 .blanco{
+    width: 190px;
+    height: 140px;
+    top: 100px;
+    left: 20px;
+    z-index: 2;
+    background-color: #fff;
+}
+#escena_03 .recipiente3 .blanco{
+    width: 240px;
+    height: 240px;
+    top: 100px;
+    left: 50px;
+    z-index: 2;
+    background-color: #fff;
+}
+#escena_03 .recipiente4{
+    top: 930px;
+    left: 1340px;
+}
+#escena_03 .recipiente4 .base{
+    width: 1128px;
+    height: 488px;
+    background-position: 0px 0px;
+}
+#escena_03 .recipiente4 .taharoa2{
+    width: 572px;
+    height: 538px;
+    background-position: -432px -488px;
+    top: -308px;
+    left: 374px;
+}
+#escena_03 .pez1{
+    width: 148px;
+    height: 230px;
+    background-position: -1004px -488px;
+/*    background-position: -1152px -488px;*/
+    animation: fx_aleteo 0.2s steps(2) infinite;
+    top: 398px;
+    left: 374px;
+    z-index: 2;
+}
+#escena_03 .pez2{
+    width: 415px;
+    height: 248px;
+    background-position: -1004px -718px;
+    top: 608px;
+    left: 1334px;
+    z-index: 2;
+}
+#escena_03 .recipiente .cubre{
+    z-index: 3;
+}
+@keyframes fx_aleteo {
+  0%    {background-position: -1004px -488px;}
+  100%  {background-position: -1302px -488px;}
+}
+
+#escena_04 .fondo{ 
+    background-image: url("../img/taharoa/esc_4_fondo.jpg");
+}
+#escena_04 .pez{
+    width: 413px;
+    height: 286px;
+    background-position: 0px -1211px;
+    top: 708px;
+    left: 194px;
+    border-radius: 200px 0px;
+/*    background-color: tomato;*/
+}
+
+#escena_05 .fondo{ 
+    background-image: url("../img/taharoa/esc_5_fondo.jpg");
+}
+#escena_05 .cubrepajaros,
+#escena_05 .pajaros{
+    top: 68px;
+    left: 120px;
+    width: 1671px;
+    height: 593px;
+    overflow: hidden;
+}
+#escena_05 .pajaros .pajaro{ 
+    width: 1291px;
+    height: 290px;
+    top: 150px;
+    background-position: 200px 0px;
+}
+#escena_05 .pajaros .pajaro1{    left: -760px;} 
+#escena_05 .pajaros .pajaro2{    left: -280px;}
+#escena_05 .pajaros .pajaro3{    left: 190px;}
+#escena_05 .pajaros .pajaro4{    left: 660px;}
+#escena_05 .pajaros .pajaro5{    left: 1135px;}
+#escena_05 .pez1{ 
+    width: 1643px;
+    height: 86px;
+    top: 706px;
+    left: 135px;
+    background-position: 20px 0px;
+}
+#escena_05 .pez2{ 
+    width: 1643px;
+    height: 86px;
+    top: 914px;
+    left: 135px;
+    background-position: 20px -86px;
+}
+
+#escena_06 .fondo{           
+    background-image: url("../img/taharoa/esc_6_fondo.jpg");
+}
+#escena_06 .cut_pez{
+    width: 1650px;
+    height: 950px;
+/*    background-color: red;*/
+    overflow: hidden;
+} 
+#escena_06 .pez{ 
+    width: 774px;
+    height: 470px;
+    top: 88px;
+    left: 735px;
+    background-position: 0px -594px;
+    z-index: 1;
+}
+#escena_06 .pez2{
+    z-index: 3;
+    top: 300px;
+    left: 620px;
+} 
+#escena_06 .ola1{ 
+    width: 545px;
+    height: 523px;
+    top: 428px;
+    left: 1054px;
+    background-position: -774px -594px;
+    z-index: 2;
+}
+#escena_06 .ola2{ 
+    width: 342px;
+    height: 307px;
+    top: 662px;
+    left: 130px;
+    background-position: -1319px -594px;
+    z-index: 2;
+}
+#escena_06 .taharoa{ 
+    width: 234px;
+    height: 170px;
+    top: 822px;
+    left: 1920px;
+    background-position: -1319px -902px;
+    z-index: 2;
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/taharoa/esc_7_fondo.jpg");
+}
+#escena_07 .salto{overflow: hidden;}
+#escena_07 .salto .pez{
+    width: 243px;
+    height: 191px;
+    background-position: -680px -1163px;
+    bottom: -200px;
+    right: 0px;
+}
+#escena_07 .salto .cubre{
+    bottom: 0px;
+}
+#escena_07 .salto1{
+    top: 0px;
+    left: 30px;
+    width: 754px;
+    height: 700px;
+}
+#escena_07 .salto1 .cubre{
+    width: 754px;
+    height: 66px;
+    background-position: 0px -1498px;
+}
+#escena_07 .salto2{
+    top: 0px;
+    left: 1288px;
+    width: 620px;
+    height: 370px;
+}
+#escena_07 .salto2 .cubre{
+    width: 620px;
+    height: 59px;
+    background-position: -402px -1429px;
+}
+#escena_07 .salto3{
+    top: 50px;
+    left: 1100px;
+    width: 685px;
+    height: 570px;
+}
+#escena_07 .salto3 .cubre{
+    width: 685px;
+    height: 66px;
+    background-position: -756px -1498px;
+}
+#escena_07 .gaviotas{
+    left: 1920px;
+}
+#escena_07 .gaviotaA{
+    width: 115px;
+    height: 140px;
+    background-position: -401px -1289px;
+}
+#escena_07 .gaviotaB{
+    width: 94px;
+    height: 132px;
+    background-position: -516px -1289px;
+}
+
+#escena_07 .gaviotaC{
+    width: 90px;
+    height: 102px;
+    background-position: -1552px -902px;
+}
+
+
+
+.btn_interact{
+    border-radius: 50%;
+    background-image: radial-gradient( circle, rgba(0,0,0,0.2), rgba(0,0,0,0.02), rgba(0,0,0,0) );
+}
+#escena_00 .btn_interact{ top: 230px; left: 1350px; }
+#escena_01 .btn_interact{ top: 120px; left: 1730px; }
+#escena_02 .btn_interact{ top: 390px; left: 630px; }
+#escena_03 .btn_interact{ top: 355px; left: 1410px;}
+#escena_04 .btn_interact{ top: 142px; left: 1715px; }
+#escena_05 .btn_interact{ top: 315px; left: 579px; }
+#escena_06 .btn_interact{ top: 200px; left: 265px; }
+#escena_07 .btn_interact{ top: 170px; left: 210px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,668 @@
+.creditos .imagen_portada,
+#final_cuento .creditos .imagen_portada{
+/*    display: grid;*/
+    background-image: url(../img/pica/esc_0_fondo.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+/*    background-color: #fff;*/
+}
+#final_cuento .creditos .imagen_portada{
+    background-image: url(../img/pica/contraportada.jpg);
+    background-position: 100% 0%;
+}
+.title h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.spriteA{ 
+    background-image: url("../img/pica/spriteA.png");
+/*    background-color: rgba(255,255,0,0.5);*/
+}
+.spriteB{ 
+    background-image: url("../img/pica/spriteB.png");
+/*    background-color: rgba(20,0,0,0.8);*/
+}
+.spriteC{ 
+    background-image: url("../img/pica/spriteC.png");
+/*    background-color: rgba(20,0,0,0.8);*/
+}
+#escena_00 .fondo{ 
+    background-image: url("../img/pica/esc_0_fondo.jpg");
+}
+#escenario #escena_01{
+    width: 7114px;
+    height: 4001px;
+}
+#escena_01 .fondo{ 
+    background-color: #00abd8;
+}
+#escena_01 .tierra{ 
+    background-image: url("../img/pica/tierra.jpg");
+    width: 7114px;
+    height: 2136px;
+    bottom: 0;
+}
+#escena_01 .pueblo_nativo{
+    width: 2186px;
+    height: 787px;
+    top: 1700px;
+    left: 4928px;
+}
+#escena_01 .pueblo_espanol{
+    width: 2299px;
+    height: 1250px;
+    top: 1400px;
+    left: 0px;
+    background-position: 0 -787px;
+}
+
+.nubeA{
+    width: 476px;
+    height: 494px;
+    top: 0px;
+    left: -1676px;
+    background-position: -5463px -2035px;
+}
+.nubeB{
+    width: 524px;
+    height: 422px;
+    top: 0px;
+    left: -1854px;
+    background-position: -5938px -2035px;
+}
+.nubeC{
+    width: 199px;
+    height: 262px;
+    top: 0px;
+    left: -700px;
+    background-position: -6072px -1366px;
+}
+#escena_01 .montana1{
+    width: 2799px;
+    height: 650px;
+    top: 1363px;
+    left: 0px;
+    background-position: 0 -2037px;
+}
+
+#escena_01 .montana2_cont{
+    width: 2464px;
+    height: 690px;
+    top: 1203px;
+    left: 3800px;
+    overflow: hidden;
+}
+#escena_01 .montana2{
+    width: 2464px;
+    height: 710px;
+    background-position: -2964px -2037px;
+}
+#escena_01 .montana3{
+    width: 3763px;
+    height: 666px;
+    top: 1256px;
+    right: 0;
+    background-position: -2308px -1368px;
+}
+#escena_01 .roca{
+    width: 4188px;
+    height: 1366px;
+    bottom: 0;
+    right: 0;
+    background-position: -2308px 0px;
+}
+
+
+#escena_02 .fondo{ 
+    background-image: url("../img/pica/esc_2_fondo.jpg");
+/*    background-image: url("../img/pica/03.jpg");*/
+}
+
+#escena_02 .contenedor_luna{
+    width: 795px;
+    height: 700px;
+    top:15px;
+    left: 246px;
+/*    opacity: 0.5;*/
+/*    background-color: deeppink;*/
+    overflow: hidden;
+}
+#escena_02 .contenedor_luna .luna{
+    width: 289px;
+    height: 287px;
+    top: 131px;
+    left: 152px;
+    background-position: -1968px -835px;
+    z-index: 2;
+}
+
+#escena_02 .contenedor_luna .cubre_luna{
+    width: 795px;
+    height: 307px;
+    background-position: -2257px -835px;
+    bottom: 0;
+    z-index: 3;
+}
+
+.estrella{
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/pica/brillo_dimming.png');
+    z-index: 1;
+}
+
+.estrellaA{    animation: fx_estrella1 1s steps(6) infinite;}
+.estrellaB{    animation: fx_estrella2 1.3s steps(9) infinite;}
+.estrellaC{    animation: fx_estrella2 1s steps(9) infinite;}
+.estrellaD{    animation: fx_estrella1 0.9s steps(6) infinite;}
+.estrellaE{    animation: fx_estrella1 1.5s steps(6) infinite;}
+.estrellaF{    animation: fx_estrella2 1.5s steps(9) infinite;}
+.estrellaG{    animation: fx_estrella2 1.5s steps(9) infinite;}
+.estrellaH{    animation: fx_estrella1 1.3s steps(6) infinite;}
+.estrellaI{    animation: fx_estrella1 1.1s steps(6) infinite;}
+.estrellaJ{    animation: fx_estrella2 0.6s steps(9) infinite;}
+
+@keyframes fx_estrella1 {
+  0%    {background-position: 0 0;}
+  50%  {background-position: -300px 0;}
+  100%  {background-position: 0px 0;}
+}
+
+@keyframes fx_estrella2 {
+  0%    {background-position: -50 0;}
+  50%  {background-position: -450px 0;}
+  100%  {background-position: 0px 0;}
+}
+
+.noche_oscura{
+    width: 100%;
+    height: 100%;
+    background-color: #180d2b;
+    mix-blend-mode: multiply;
+    z-index: 4;
+}
+
+#escena_03 .fondo{ 
+    background-image: url("../img/pica/esc_3_fondo.jpg");
+}
+#escena_03 .chinchilla{
+    top: 547px;
+    left: 1341px;
+    width: 135px;
+    height: 114px;
+    background-position: -6271px -1366px;
+}
+#escena_03 .cubre_chinchilla{
+    top: 469px;
+    left: 1029px;
+    width: 477px;
+    height: 312px;
+    background-position: -6176px -1628px;
+}
+#escena_03 .piedra1{
+    top: 756px;
+    left: 840px;
+    width: 104px;
+    height: 37px;
+    background-position: -6072px -1628px;
+}
+#escena_03 .piedra2{
+    top: 992px;
+    left: 652px;
+    width: 89px;
+    height: 34px;
+    background-position: -6072px -1665px;
+}
+#escena_03 .piedra3{
+    top: 895px;
+    left: 938px;
+    width: 83px;
+    height: 43px;
+    background-position: -6072px -1699px;
+}
+#escena_03 .piedra4{
+    top: 715px;
+    left: 654px;
+    width: 89px;
+    height: 33px;
+    background-position: -6072px -1742px;
+}
+#escena_03 .piedra5{
+    top: 825px;
+    left: 904px;
+    width: 68px;
+    height: 23px;
+    background-position: -6072px -1775px;
+}
+#escena_03 .piedra6{
+    top: 885px;
+    left: 504px;
+    width: 51px;
+    height: 26px;
+    background-position: -6072px -1798px;
+}
+#escena_03 .piedra7{
+    top: 992px;
+    left: 904px;
+    width: 53px;
+    height: 18px;
+    background-position: -6072px -1824px;
+}
+#escena_03 .piedra8{
+    top: 678px;
+    left: 904px;
+    width: 47px;
+    height: 21px;
+    background-position: -6072px -1842px;
+}
+#escena_03 .piedra9{
+    top: 973px;
+    left: 548px;
+    width: 42px;
+    height: 23px;
+    background-position: -6072px -1864px;
+}
+#escena_03 .hit_zone{
+    width: 100px;
+    height: 160px;
+/*    background-color: rgba(255,0,0,0.5);*/
+    top: 730px;
+    left: 740px;
+}
+#escena_03 .piedra{z-index: 2;}
+.indicador_interactividad{z-index: 1;}
+
+
+#escenario #escena_04 .fondo{ 
+    background-image: url("../img/pica/esc_4_fondo.jpg");
+    width: 1920px;
+    height: 1940px;
+}
+#escena_04 .interact{
+    height: 1940px;
+}
+#escena_04 .lonco{ 
+    width: 555px;
+    height: 984px;
+    left: 1150px;
+    top: 300px;
+    z-index: 5;
+}
+#escena_04 .damaso{ 
+    width: 384px;
+    height: 104px;
+    left: 166px;
+    top: 1005px;
+    background-position: -2025px -1142px;
+}
+
+#escena_04 .vizcacha3{ 
+    width: 95px;
+    height: 83px;
+    left: 1436px;
+    top: 1185px;
+    background-position: -1920px -1384px;
+    z-index: 3;
+}
+#escena_04 .vizcacha2, 
+#escena_04 .vizcacha4{ 
+    width: 32px;
+    height: 38px;
+    left: 1496px;
+    top: 1215px;
+    background-position: -1972px -1307px;
+    z-index: 2;
+}
+#escena_04 .vizcacha4{
+    z-index: 1;
+    top: 1225px;
+} 
+#escena_04 .vizcacha1{ 
+    width: 39px;
+    height: 35px;
+    left: 1526px;
+    top: 1225px;
+    background-position: -1972px -1345px;
+    z-index: 2;
+}
+#escena_04 .rio{
+    bottom: 85px;
+    width: 100%;
+    height: 180px;
+    background-color: rgba(0,0,0,0.2);
+    overflow: hidden;
+    left: 1px;
+}
+#escena_04 .rio .olaA{ 
+    width: 1733px;
+    height: 88px;
+    background-position: 0px -1470px;
+}
+#escena_04 .rio .olaB{ 
+    width: 1650px;
+    height: 85px;
+    background-position: 0px -1558px;
+}
+#escena_04 .rio .olaC{ 
+    width: 1880px;
+    height: 85px;
+    background-position: 0px -1643px;
+}
+#escena_04 .rio .piedras1{ 
+    width: 1712px;
+    height: 85px;
+    top: 35px;
+    left: 100px;
+    background-position: 0px -1728px;
+}
+#escena_04 .rio .piedras2{ 
+    width: 544px;
+    height: 56px;
+    top: 55px;
+    left: 610px;
+    background-position: 0px -1813px;
+}
+
+#escena_04 .rio .rama1{ 
+    width: 72px;
+    height: 48px;
+    left: 1920px;
+    background-position: -1920px -1245px;
+}
+#escena_04 .rio .rama2{ 
+    width: 116px;
+    height: 15px;
+    left: 1920px;
+    background-position: -1920px -1293px;
+}
+#escena_04 .rio .cubre_rio{ 
+    width: 1920px;
+    height: 180px;
+    background-position: -542px -1830px;
+}
+
+#escena_05 .fondo{ 
+    background-image: url("../img/pica/esc_5_fondo.jpg");
+}
+#escena_05 .pastos{ 
+    height: 200px;
+    bottom: -10px;
+    width: 100%;
+    left: -50px;
+}
+
+#escena_05 .pastos .pasto{bottom: 0;} 
+#escena_05 .pastos .pastoA{     width: 130px;    height: 127px;    background-position: -404px -293px;  }
+#escena_05 .pastos .pastoB{     width: 79px;    height: 183px;    background-position: -534px -293px;  }
+#escena_05 .pastos .pastoC{     width: 95px;    height: 133px;    background-position: -612px -293px;  }
+#escena_05 .pastos .pastoD{     width: 70px;    height: 143px;    background-position: -707px -293px;  }
+#escena_05 .pastos .pastoE{     width: 52px;    height: 147px;    background-position: -777px -293px;  }
+#escena_05 .pastos .pastoF{     width: 100px;    height: 165px;    background-position: -829px -293px;  }
+#escena_05 .pastos .pastoG{     width: 90px;    height: 104px;    background-position: -929px -293px;  }
+#escena_05 .pastos .pastoH{     width: 26px;    height: 206px;    background-position: -1019px -293px;  }
+#escena_05 .pastos .pastoI{     width: 65px;    height: 135px;    background-position: -1045px -293px;  }
+#escena_05 .pastos .pastoJ{     width: 39px;    height: 185px;    background-position: -1110px -293px;  }
+#escena_05 .pastos .pastoK{     width: 36px;    height: 141px;    background-position: -1149px -293px;  }
+#escena_05 .pastos .pastoL{     width: 59px;    height: 179px;    background-position: -1184px -293px;  }
+#escena_05 .pastos .pastoM{     width: 68px;    height: 141px;    background-position: -1242px -293px;  }
+#escena_05 .pastos .pastoN{     width: 90px;    height: 141px;    background-position: -1310px -293px;  }
+#escena_05 .pastos .pastoO{     width: 29px;    height: 167px;    background-position: -1400px -293px;  }
+#escena_05 .pastos .pastoP{     width: 187px;    height: 174px;    background-position: 0px -520px;  }
+#escena_05 .pastos .pastoQ{     width: 96px;    height: 178px;    background-position: -187px -520px;  }
+#escena_05 .pastos .pastoR{     width: 157px;    height: 139px;    background-position: -283px -499px;  }
+#escena_05 .pastos .pastoS{     width: 157px;    height: 110px;    background-position: -440px -479px;  }
+#escena_05 .pelo1{     
+    width: 226px;
+    height: 296px;
+    top: 470px;
+    left: 1637px;
+    background-position: -1370px 0px;
+    z-index: 90000;
+}
+#escena_05 .pelo2{     
+    width: 277px;
+    height: 170px;
+    top: 580px;
+    left: 1337px;
+    background-position: -1596px 0px;
+}
+#escena_05 .cerro1{     
+    width: 635px;
+    height: 262px;
+    top: 159px;
+    left: 0px;
+    background-position: 0px -30px;
+}
+#escena_05 .cerro2{     
+    width: 735px;
+    height: 293px;
+    top: 129px;
+    right: 0px;
+    background-position: -635px 0px;
+}
+#escena_05 .pajarito{
+    left: 1920px;
+    top: 280px;
+}
+#escena_05 .pajaritoA{
+    width: 169px;
+    height: 57px;
+    top: 59px;
+    left: 0px;
+    background-position: -205px -294px;
+}
+#escena_05 .pajaritoB{     
+    width: 169px;
+    height: 85px;
+    top: 0px;
+    left: 0px;
+    background-position: -205px -361px;
+}
+#escena_05 .pajaritoC{
+    width: 169px;
+    height: 51px;
+    top: 32px;
+    left: 0px;
+    background-position: -205px -446px;
+}
+
+#escena_05 .chinchilla{
+    top: 555px;
+    left: 1144px;
+    width: 181px;
+    height: 191px;
+    background-position: -1596px -170px;
+}
+#escena_05 .cubre_chinchilla{
+    top: 647px;
+    left: 1184px;
+    width: 203px;
+    height: 226px;
+    background-position: 0px -294px;
+}
+
+#escena_06 .fondo{           
+    background-image: url("../img/pica/esc_6_fondo.jpg");
+}
+
+#escena_06 .montanas{
+    top: 327px;
+    left: 0px;
+    width: 1920px;
+    height: 296px;
+    background-position: 0px -1168px;
+}
+#escena_06 .vegetacion{
+    z-index: 3;
+}
+#escena_06 .rio{
+    top: 389px;
+    left: 0px;
+    width: 1520px;
+    height: 620px;
+    background-position: -1874px 0px;
+}
+
+#escena_06 .arboles1{
+    top: 517px;
+    left: 867px;
+    width: 514px;
+    height: 137px;
+    background-position: -1189px -477px;
+}
+#escena_06 .arboles2{
+    top: 443px;
+    left: 1269px;
+    width: 392px;
+    height: 106px;
+    background-position: 0px -1050px;
+}
+#escena_06 .arboles3{
+    top: 422px;
+    left: -23px;
+    width: 1300px;
+    height: 246px;
+    background-position: -444px -629px;
+    z-index: 2;
+}
+#escena_06 .arboles4{
+    top: 454px;
+    left: 1739px;
+    width: 200px;
+    height: 121px;
+    background-position: -1768px -799px;
+}
+#escena_06 .arboles5{
+    top: 565px;
+    left: 811px;
+    width: 239px;
+    height: 115px;
+    background-position: -1529px -909px;
+    z-index: 4;
+}
+#escena_06 .arboles6{
+    top: 537px;
+    left: 1477px;
+    width: 444px;
+    height: 173px;
+    background-position: 0px -698px;
+}
+#escena_06 .arboles7{
+    top: 427px;
+    left: 276px;
+    width: 287px;
+    height: 132px;
+    background-position: -896px -500px;
+}
+#escena_06 .arboles8{
+    top: 414px;
+    left: -9px;
+    width: 293px;
+    height: 104px;
+    background-position: -603px -500px;
+}
+#escena_06 .arboles9{
+    top: 541px;
+    left: 563px;
+    width: 315px;
+    height: 181px;
+    background-position: -1743px -620px;
+    z-index: 3;
+}
+#escena_06 .arboles10{
+    top: 597px;
+    left: 1020px;
+    width: 333px;
+    height: 175px;
+    background-position: -1193px -901px;
+    z-index: 5;
+}
+#escena_06 .arboles11{
+    top: 595px;
+    left: -123px;
+    width: 638px;
+    height: 268px;
+    background-position: -554px -901px;
+    z-index: 5;
+}
+#escena_06 .arboles12{
+    top: 656px;
+    left: 509px;
+    width: 552px;
+    height: 169px;
+    background-position: 0px -881px;
+    z-index: 5;
+}
+#escena_06 .caravana{
+    z-index: 6;
+}
+#escena_06 .caravana1{
+    top: 836px;
+    left: 59px;
+    width: 421px;
+    height: 208px;
+    background-position: -2071px -619px;
+}
+#escena_06 .caravana2{
+    top: 716px;
+    left: 979px;
+    width: 330px;
+    height: 141px;
+    background-position: -2492px -619px;
+}
+#escena_06 .caravana3{
+    top: 580px;
+    left: 1408px;
+    width: 205px;
+    height: 143px;
+    background-position: -2822px -619px;
+/*    background-color: red;*/
+}
+#escena_06 #nubes6{
+    width: 1920px;
+    height: 500px;
+    overflow: hidden;
+/*    background-color: red;*/
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/pica/esc_7_fondo.jpg");
+}
+
+
+#escena_00 .btn_interact{ top: 230px; left: 1350px; }
+#escena_01 .btn_interact{ top: 470px; left: 850px; }
+#escena_02 .btn_interact{ top: 250px; left: 1460px; }
+#escena_03 .btn_interact{ top: 815px; left: 740px;}
+#escena_03 .btn_interact.primario{ top: 515px; left: 1170px; z-index: 3;}
+#escena_04 .btn_interact{ top: 322px; left: 1220px; }
+#escena_05 .btn_interact{ top: 615px; left: 979px; }
+#escena_06 .btn_interact{ top: 340px; left: 1310px; }
+#escena_07 .btn_interact{ top: 170px; left: 210px;}
+
+#escena_03 .drag_tolltip{
+    top: 640px;
+    left: 700px;
+}
+
+@media 
+only screen and (min-device-width: 200px) and (max-device-width: 823px),
+only screen and (min-width: 200px) and (max-width: 823px) { 
+    #escena_03 .drag_tolltip{
+        top: 540px!important;
+        left: 650px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

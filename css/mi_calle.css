@@ -1,0 +1,643 @@
+.creditos .imagen_portada,
+#final_cuento .creditos .imagen_portada{
+/*    display: grid;*/
+    background-image: url(../img/mi_calle/esc_0_fondo.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-color: #fcfe99;
+/*
+    background-repeat: no-repeat;
+*/
+}
+#final_cuento .creditos .imagen_portada{
+    background-image: url(../img/mi_calle/contraportada.jpg);
+    background-color: #496226;
+}
+
+.title h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.spriteA{ 
+    background-image: url("../img/mi_calle/spriteA.png");
+/*    background-color: rgba(255,255,0,0.5);*/
+}
+.spriteB{ 
+    background-image: url("../img/mi_calle/spriteB.png");
+/*    background-color: rgba(255,255,0,1);*/
+}
+.spriteC{ 
+    background-image: url("../img/mi_calle/spriteC.png");
+/*    background-color: rgba(255,0,0,0.5);*/
+}
+.spriteD{ 
+    background-image: url("../img/mi_calle/spriteD.png");
+/*    background-color: rgba(255,0,0,0.5);*/
+}
+.spriteE{ 
+    background-image: url("../img/mi_calle/spriteE.png");
+/*    background-color: rgba(255,0,0,0.5);*/
+}
+.spriteF{ 
+    background-image: url("../img/mi_calle/spriteF.png");
+/*    background-color: rgba(0,0,0,0.4);*/
+}
+
+#escena_00 .fondo{ 
+    background-image: url("../img/mi_calle/esc_0_fondo.jpg");
+    background-size: cover;
+}
+
+#escena_00 .parpado{
+    width: 110px;
+    height: 130px;
+    top:465px;
+    left: 1547px;
+    background-position: -2475px -1714px;
+}
+#escena_00 .paloma{
+    top: 382px;
+    left: 835px;
+}
+#escena_00 .paloma .paloma2{
+    width: 87px;
+    height: 110px;
+    top: 0px;
+    left: 36px;
+    background-position: -1440px -1271px;
+/*    background-color: tomato;*/
+}
+#escena_00 .paloma .paloma1{
+    width: 87px;
+    height: 92px;
+    top: 18px;
+    left: 36px;
+    background-position: -1527px -1271px;
+/*    background-color: darkgoldenrod;*/
+}
+#escena_00 .paloma .paloma3{
+    width: 126px;
+    height: 76px;
+    top: 34px;
+    left: 0px;
+/*    display: none;*/
+    background-position: -1440px -1381px;
+/*    background-color: tomato;*/
+}
+
+#escena_01 .fondo{ 
+/*    background-image: url("../img/mi_calle/esc_1_fondo.jpg");*/
+/*    background-image: url("../img/mi_calle/testpos2.jpg");*/
+    background-color: #ffffff;
+}
+#escena_01 .suelo{ 
+    width: 1923px;
+    height: 1080px;
+    background-position: -1905px 0px;
+    left: -3px;
+    top: 0px;
+}
+#escena_01 .ciclista{
+    top: -206px;
+    left: 141px;
+}
+#escena_01 .ciclista .cuerpo{
+    width: 1040px;
+    height: 632px;
+    top: 200px;
+    background-position: 0px -1082px;
+}
+#escena_01 .ciclista .cabeza1{
+    width: 348px;
+    height: 346px;
+    top: 9px;
+    left: 394px;
+    background-position: -279px -1714px;
+}
+#escena_01 .ciclista .cabeza2{
+    width: 279px;
+    height: 311px;
+    top: 0px;
+    left: 412px;
+    background-position: 0px -1714px;
+}
+#escena_01 .muro{ 
+    width: 1905px;
+    height: 1082px;
+    left: -1px;
+    top: -2px;
+/*    display: none;*/
+}
+#escena_01 .gato1{ 
+    width: 679px;
+    height: 650px;
+    top: 315px;
+    left: 1196px;
+    background-position: -2474px -1082px;
+}
+#escena_01 .gato2{ 
+    width: 1419px;
+    height: 1000px;
+    top: -89px;
+    left: 74px;
+    background-position: -1041px -1082px;
+/*    display: none;*/
+}
+
+#escena_02 .fondo{ 
+}
+
+#escena_02 .music_suelo .pista0{ 
+    width: 289px;
+    height: 1080px;
+    background-position: 0px 0px;
+}
+#escena_02 .music_suelo .pista1{ 
+    width: 289px;
+    height: 1080px;
+    left: 289px;
+    background-position: -289px 0px;
+}
+#escena_02 .music_suelo .pista2{ 
+    width: 300px;
+    height: 1080px;
+    left: 578px;
+    background-position: -578px 0px;
+}
+#escena_02 .music_suelo .pista3{ 
+    width: 294px;
+    height: 1080px;
+    left: 878px;
+    background-position: -878px 0px;
+}
+#escena_02 .music_suelo .pista4{ 
+    width: 294px;
+    height: 1080px;
+    left: 1172px;
+    background-position: -1172px 0px;
+}
+#escena_02 .music_suelo .personaje0{ 
+    width: 300px;
+    height: 660px;
+    top:380px;
+    left:-22px;
+    background-position: -1472px -1080px;
+}
+#escena_02 .music_suelo .personaje1{ 
+    width: 382px;
+    height: 840px;
+    top:21px;
+    left:258px;
+    background-position: -1921px 0px;
+}
+#escena_02 .music_suelo .personaje2{ 
+    width: 368px;
+    height: 640px;
+    top:583px;
+    left:499px;
+    background-position: -1921px -933px;
+}
+#escena_02 .music_suelo .personaje3{ 
+    width: 368px;
+    height: 580px;
+    top: 21px;
+    left:824px;
+    background-position: -2301px 0px;
+}
+#escena_02 .music_suelo .personaje4{ 
+    width: 293px;
+    height: 520px;
+    top: 509px;
+    left:1182px;
+    background-position: -1921px -1627px;
+}
+#escena_02 .nena{ 
+    width: 454px;
+    height: 1080px;
+    background-position: -1466px 0px;
+    left: 1466px;
+}
+
+#escena_03 .fondo{ 
+    background-image: url("../img/mi_calle/esc_3_fondo.jpg");
+/*    background-image: url("../img/mi_calle/testpos4.jpg");*/
+}
+#escena_03 .bus{
+    width: 368px;
+    height: 674px;
+    left:-38px;
+    background-position: -2327px -733px;
+} 
+#escena_03 .muro{
+    width: 376px;
+    height: 716px;
+    left:325px;
+    background-position: -3152px -1246px;
+} 
+#escena_03 .hombre{
+    width: 141px;
+    height: 217px;
+    left:45px;
+    top: 863px;
+    background-position: -2585px -1763px;
+}  
+#escena_03 .spider_complex{
+    left: 430px;
+}
+#escena_03 .spider_complex .spider{
+    width: 121px;
+    height: 61px;
+    left:0px;
+    top: 310px;
+    background-position: -2726px -1761px;
+} 
+#escena_03 .spider_complex .tela{
+    width: 5px;
+    height: 310px;
+    left:55px;
+    top: 0px;
+    background-position: -3530px -1246px;
+} 
+#escena_03 .paloma{
+    left:365px;
+    top: 695px;
+} 
+#escena_03 .paloma .paloma1{
+    width: 139px;
+    height: 180px;
+    background-position: -1440px -1092px;
+} 
+#escena_03 .hormigas{
+    width: 860px;
+    height: 1080px;
+    left:847px;
+    top: 0px;
+    background-position: 0px 0px;
+    background-image: url("../img/mi_calle/hormigas.png");
+    animation: fx_fondo2 0.8s steps(3) infinite;
+    background-repeat: no-repeat;
+}
+
+@keyframes fx_fondo2 {
+  0%    {background-position: 0 0;}
+  100%  {background-position: -2580px 0;}
+}
+#escena_04 .fondo{ 
+    background-image: url("../img/mi_calle/esc_4_fondo.jpg");
+    background-size: cover;
+/*    background-image: url("../img/mi_calle/testpos4.jpg");*/
+}
+#escena_04 .gente{
+    mix-blend-mode: multiply;
+}
+#escena_04 .gente1{
+    width: 135px;
+    height: 145px;
+    top: 439px;
+    left: 1452px;
+    background-position: -3154px -1080px;
+} 
+#escena_04 .gente2{
+    width: 85px;
+    height: 145px;
+    top: 437px;
+    left: 1850px;
+    background-position: -3289px -1080px;
+} 
+#escena_04 .gente3{
+    width: 60px;
+    height: 145px;
+    top: 557px;
+    left: 1548px;
+    background-position: -3364px -1080px;
+}
+#escena_04 .gente4{
+    width: 60px;
+    height: 145px;
+    top: 685px;
+    left: 1492px;
+    background-position: -3424px -1080px;
+} 
+#escena_04 .gente5{
+    width: 68px;
+    height: 145px;
+    top: 685px;
+    left: 1696px;
+    background-position: -3489px -1080px;
+} 
+#escena_04 .gente6{
+    width: 38px;
+    height: 45px;
+    top: 330px;
+    left: 999px;
+    background-position: -3553px -1080px;
+} 
+#escena_04 .gente7{
+    width: 46px;
+    height: 45px;
+    top: 394px;
+    left: 874px;
+    background-position: -3591px -1080px;
+} 
+#escena_04 .gente8{
+    width: 86px;
+    height: 45px;
+    top: 452px;
+    left: 928px;
+    background-position: -3553px -1122px;
+} 
+#escena_04 .gente9{
+    width: 86px;
+    height: 45px;
+    top: 574px;
+    left: 878px;
+    background-position: -3553px -1167px;
+} 
+
+#escena_05 .fondo{ 
+    background-image: url("../img/mi_calle/esc_5_fondo.jpg");
+/*    background-image: url("../img/mi_calle/testpos5.jpg");*/
+}
+#escena_05 .maceta{
+    width: 1363px;
+    height: 1080px;
+    top: 0px;
+    left: 557px;
+    background-position: 0px 0px;
+} 
+#escena_05 .estrella2{
+    width: 829px;
+    height: 829px;
+    top: 300px;
+    left: 900px;
+    background-position: -1363px 0px;
+} 
+#escena_05 .estrella1{
+    width: 1310px;
+    height: 1310px;
+    top: 55px;
+    left: 630px;
+    background-position: -2192px 0px;
+} 
+
+#escena_05 .paloma{
+    top: 450px;/*450*/
+    left: 1414px;/*1414*/
+}
+#escena_05 .paloma .paloma2{
+    width: 533px;
+    height: 605px;
+    left: 203px;
+    background-position: -1929px 0px;
+}
+#escena_05 .paloma .paloma1{
+    width: 477px;
+    height: 503px;
+    top: 102px;
+    left: 183px;
+    background-position: -1929px -607px;
+}
+#escena_05 .paloma .paloma3{
+    width: 672px;
+    height: 413px;
+    top: 192px;
+    background-position: -1929px -1114px;
+}
+
+#escena_06 .fondo{           
+/*    background-image: url("../img/mi_calle/esc_6_fondo.jpg");*/
+/*    background-image: url("../img/mi_calle/testpos7.jpg");*/
+}
+#escena_06 .luz{
+    width: 1467px;
+    height: 984px;
+    left: 458px;
+    background-position: -1920px 0px;
+}
+#escena_06 .hombre{
+    width: 210px;
+    height: 486px;
+    top: 436px;
+    left: 261px;
+    background-position: -1920px -984px;
+}
+#escena_06 .rubia{
+    width: 223px;
+    height: 486px;
+    top: 176px;
+    left: 461px;
+    background-position: -2130px -984px;
+}
+#escena_06 .lady{
+    width: 173px;
+    height: 419px;
+    top: 115px;
+    left: 980px;
+    background-position: -2353px -984px;
+}
+#escena_06 .butaca{
+    width: 379px;
+    height: 311px;
+    top: 405px;
+    left: 444px;
+    background-position: -2526px -984px;
+}
+#escena_06 .suelo{
+    width: 1920px;
+    height: 1080px;
+    top: 5px;
+    background-position: 0px -1080px;
+}
+
+#escena_06 .oso{
+    top: 329px;
+    left: 929px;
+}
+#escena_06 .oso .cabeza{
+    width: 227px;
+    height: 224px;
+    background-position: -1920px -1466px;
+}
+#escena_06 .oso .cuerpo{
+    width: 296px;
+    height: 255px;
+    top: 147px;
+    left: 47px;
+    background-position: -1920px -1690px;
+}
+#escena_06 .doll{
+    top: 429px;
+    left: 1228px;
+}
+#escena_06 .doll .cuerpo{
+    width: 114px;
+    height: 176px;
+    left: 4px;
+    background-position: -1920px -1945px;
+}
+#escena_06 .doll .brazo{
+    width: 54px;
+    height: 76px;
+    top: 80px;
+    background-position: -2034px -1945px;
+}
+
+
+#escena_06 .paloma{
+    top: 120px;
+    left: 1654px;
+}
+#escena_06 .paloma .paloma1{
+    width: 235px;
+    height: 307px;
+    left: 102px;
+    background-position: -1440px -1470px;
+}
+#escena_06 .paloma .paloma2{
+    width: 239px;
+    height: 257px;
+    top: 51px;
+    left: 97px;
+    background-position: -1675px -1470px;
+    display: none;
+}
+#escena_06 .paloma .paloma3{
+    width: 341px;
+    height: 208px;
+    top: 100px;
+    background-position: -1440px -1777px;
+    display: none;
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/mi_calle/esc_7_fondo.jpg");
+/*    background-image: url("../img/mi_calle/testpos8.jpg");*/
+}
+#escena_07 .nubes .nube{
+    width: 1920px;
+    background-image: url("../img/mi_calle/nubes-min.png");
+}
+#escena_07 .nubes .nube1{
+    top: 230px;
+    height: 853px;
+    background-position: 0px 0px;
+}
+#escena_07 .nubes .nube2{
+    top: 520px;
+    height: 309px;
+    background-position: 0px -853px;
+}
+#escena_07 .nubes .nube3{
+    top: 308px;
+    height: 638px;
+    background-position: 0px -1162px;
+}
+#escena_07 .nubes .nube4{
+    top: 654px;
+    height: 432px;
+    background-position: 0px -1800px;
+}
+#escena_07 .nubes .nube_elefante{
+    top: 254px;
+    left: -200px;
+    width: 1504px;
+    height: 682px;
+    background-position: 0px -2232px;
+    z-index: 2;
+}
+#escena_07 .primer_plano{
+    width: 1836px;
+    height: 904px;
+    z-index: 3;
+}
+#escena_07 .cartero {
+    top: 676px;
+    left: 742px;
+}
+#escena_07 .cartero .cuerpo{
+    width: 419px;
+    height: 424px;
+    background-position: -1836px 0px;
+}
+#escena_07 .cartero .ojos{
+    width: 97px;
+    height: 42px;
+    top: 107px;
+    left: 160px;
+    background-position: -2543px 0px;
+}
+
+#escena_08 .fondo{ 
+    background-size: cover;
+}
+#escena_08 .fondo.dia{ 
+    background-image: url("../img/mi_calle/esc_8_fondo_dia.jpg");
+}
+#escena_08 .fondo.noche{ 
+    background-image: url("../img/mi_calle/esc_8_fondo_noche.jpg");
+}
+
+#escena_08 .ojos_dia,
+#escena_08 .ojos_noche{
+    width: 160px;
+    height: 77px;
+    top: 158px;
+    left: 1536px;
+    background-position: -3540px -1248px;
+}
+#escena_08 .ojos_noche{
+    background-position: -3540px -1407px;
+}
+#escena_08 .boca_dia,
+#escena_08 .boca_noche{
+    width: 160px;
+    height: 76px;
+    top: 199px;
+    left: 1536px;
+    background-position: -3540px -1328px;
+}
+#escena_08 .boca_noche{
+    background-position: -3540px -1487px; 
+}
+.btn_interact{
+    border-radius: 50%;
+    background-image: radial-gradient( circle, rgba(0,0,0,0.5), rgba(0,0,0,0), rgba(0,0,0,0) );
+}
+#escena_00 .btn_interact.btn_5{ top: 155px; left: 700px; }
+#escena_00 .btn_interact.btn_4{ top: 475px; left: 628px; }
+#escena_00 .btn_interact.btn_3{ top: 860px; left: 530px; }
+#escena_00 .btn_interact.btn_nena{ top: 660px; left: 1480px; }
+
+#escena_01 .btn_interact{ top: 380px; left: 1450px; }
+
+#escena_02 .btn_interact.btn_pista_0{ top: 535px; left: 100px; }
+#escena_02 .btn_interact.btn_pista_1{ top: 285px; left: 385px; }
+#escena_02 .btn_interact.btn_pista_2{ top: 785px; left: 685px; }
+#escena_02 .btn_interact.btn_pista_3{ top: 125px; left: 975px; }
+#escena_02 .btn_interact.btn_pista_4{ top: 655px; left: 1300px; }
+
+#escena_03 .btn_interact{ top: 645px; left: 80px;}
+#escena_03 .btn_interact.btn_balcon{ top: 670px; left: 520px;}
+
+#escena_04 .btn_interact{ top: 490px; left: 700px; }
+
+#escena_05 .btn_interact{ top: 365px; left: 1570px; }
+
+#escena_06 .btn_interact{ top: 650px; left: 1590px; }
+
+#escena_07 .btn_interact{ top: 175px; left: 1468px; z-index: 4;}
+
+#escena_08 .btn_interact{ top: 640px; left: 1620px;}
+
+
+
+
+
+
+
+
+
+
+

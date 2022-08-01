@@ -1,0 +1,296 @@
+#escena_08 .estrellas{
+}
+#escena_08 .estrellaA{ 
+    width: 110px;
+    height: 110px;
+    background-position: 0px -1852px;
+}
+
+#escena_08 .estrellaB{ 
+    width: 90px;
+    height: 90px;
+    background-position: -110px -1852px;
+}
+#escena_08 .estrellaC{ 
+    width: 150px;
+    height: 150px;
+    background-position: -200px -1852px;
+}
+#escena_08 .estrellaD{ 
+    width: 100px;
+    height: 100px;
+    background-position: -350px -1852px;
+}
+#escena_08 .estrellaE{ 
+    width: 150px;
+    height: 150px;
+    background-position: -450px -1852px;
+}
+#escena_08 .estrellaF{ 
+    width: 120px;
+    height: 100px;
+    background-position: -600px -1852px;
+}
+
+#escena_08 .estrellaG{ 
+    width: 100px;
+    height: 100px;
+    background-position: -720px -1852px;
+}
+#escena_08 .estrellaH{ 
+    width: 100px;
+    height: 100px;
+    background-position: -720px -1852px;
+}
+#escena_08 .estrellaI{ 
+    width: 140px;
+    height: 140px;
+    background-position: -820px -1852px;
+}
+#escena_08 .estrellaJ{ 
+    width: 110px;
+    height: 110px;
+    background-position: -960px -1852px;
+}
+#escena_08 .estrellaK{ 
+    width: 150px;
+    height: 150px;
+    background-position: -1070px -1852px;
+}
+#escena_08 .estrellaL{ 
+    width: 100px;
+    height: 100px;
+    background-position: -1230px -1852px;
+}
+#escena_08 .estrellaM{ 
+    width: 130px;
+    height: 130px;
+    background-position: 0px -2000px;
+}
+#escena_08 .estrellaN{ 
+    width: 145px;
+    height: 145px;
+    background-position: -130px -2000px;
+}
+#escena_08 .estrellaO{ 
+    width: 100px;
+    height: 110px;
+    background-position: -275px -2000px;
+}
+#escena_08 .estrellaP{ 
+    width: 110px;
+    height: 110px;
+    background-position: -375px -2000px;
+}
+
+#escena_08 .estrellas .estrella .destello{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    background-image: url('../img/mi_calle/brillo.png');
+    background-size: cover;
+}
+
+#escena_08 .estrellaA .destello{    top: -4px;     left:-3px;                   }
+#escena_08 .estrellaF .destello{    top: -10px;    left: 3px;   height: 120px;  }
+#escena_08 .estrellaC .destello{    top: -15px;    left: 2px;                   }
+#escena_08 .estrellaO .destello{                   left: -7px;                  }
+
+#escena_08 .estrella1{
+    top: 36px;
+    left: 90px;
+} 
+#escena_08 .estrella2{
+    top: 32px;
+    left: 318px;
+} 
+#escena_08 .estrella3{
+    top: 226px;
+    left: 328px;
+} 
+#escena_08 .estrella4{
+    top: 207px;
+    left: 641px;
+} 
+#escena_08 .estrella5{
+    top: 323px;
+    left: 809px;
+} 
+#escena_08 .estrella6{
+    top: 320px;
+    left: 514px;
+} 
+#escena_08 .estrella7{
+    top: 485px;
+    left: 112px;
+}  
+#escena_08 .estrella8{
+    top: 588px;
+    left: 10px;
+} 
+#escena_08 .estrella9{
+    top: 645px;
+    left: 152px;
+} 
+#escena_08 .estrella10{
+    top: 666px;
+    left: 415px;
+} 
+#escena_08 .estrella11{
+    top: 548px;
+    left: 910px;
+} 
+#escena_08 .estrella12{
+    top: 836px;
+    left: 55px;
+} 
+#escena_08 .estrella13{
+    top: 772px;
+    left: 227px;
+} 
+#escena_08 .estrella14{
+    top: 817px;
+    left: 543px;
+} 
+#escena_08 .estrella15{
+    top: 805px;
+    left: 974px;
+}  
+#escena_08 .estrella16{
+    top: 965px;
+    left: 235px;
+} 
+#escena_08 .estrella17{
+    top: -40px;
+    left: 695px;
+} 
+#escena_08 .estrella18{
+    top: 50px;
+    left: 910px;
+} 
+#escena_08 .estrella19{
+    top: 130px;
+    left: 875px;
+} 
+#escena_08 .estrella20{
+    top: 230px;
+    left: 1020px;
+} 
+#escena_08 .estrella21{
+    top: -65px;
+    left: 505px;
+} 
+#escena_08 .estrella22{
+    top: 354px;
+    left: 135px;
+} 
+#escena_08 .estrella23{
+    top: 432px;
+    left: 595px;
+} 
+#escena_08 .estrella24{
+    top: 520px;
+    left: 725px;
+} 
+#escena_08 .estrella25{
+    top: 470px;
+    left: 465px;
+} 
+#escena_08 .estrella26{
+    top: 735px;
+    left: 665px;
+} 
+#escena_08 .estrella27{
+    top: 375px;
+    left: 225px;
+} 
+#escena_08 .estrella28{
+    top: 475px;
+    left: -50px;
+} 
+#escena_08 .estrella29{
+    top: 650px;
+    left: 725px;
+} 
+#escena_08 .estrella30{
+    top: 210px;
+    left: -95px;
+} 
+#escena_08 .estrella31{
+    top: 987px;
+    left: 635px;
+} 
+#escena_08 .estrella32{
+    top: 935px;
+    left: 759px;
+} 
+#escena_08 .estrella33{
+    top: 1035px;
+    left: 380px;
+} 
+#escena_08 .estrella34{
+    top: 1005px;
+    left: 75px;
+}
+
+#escena_08 .mini_estrella{
+    background-image: url('../img/mi_calle/brillo_dimming.png');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#escena_08 .mini_estrellaA{
+    animation: fx_estrella1 1s steps(6) infinite;
+}
+
+#escena_08 .mini_estrellaB{
+    animation: fx_estrella2 2s steps(9) infinite;
+}
+
+#escena_08 .mini_estrellaC{
+    animation: fx_estrella2 1s steps(9) infinite;
+}
+
+#escena_08 .mini_estrellaD{
+    animation: fx_estrella1 0.7s steps(6) infinite;
+}
+
+#escena_08 .mini_estrellaE{
+    animation: fx_estrella1 1.5s steps(6) infinite;
+}
+
+@keyframes fx_estrella1 {
+  0%    {background-position: 0 0;}
+  50%  {background-position: -300px 0;}
+  100%  {background-position: 0px 0;}
+}
+
+@keyframes fx_estrella2 {
+  0%    {background-position: -50 0;}
+  50%  {background-position: -450px 0;}
+  100%  {background-position: 0px 0;}
+}
+
+#escena_08 .gato{
+    top: 383px;
+    left: 0px;
+} 
+#escena_08 .gato .gato_1,
+#escena_08 .gato .gato_2{
+    width: 650px;
+    height: 366px;
+    background-position: -1920px -1530px;
+    top: 0px;
+    left: 730px;
+}
+#escena_08 .gato .gato_1{
+    top: 300px;
+    left: 1380px;
+}
+#escena_08 .gato .gato_3{
+    width: 625px;
+    height: 439px;
+    top: 250px;
+    background-position: -2386px 0px;
+}

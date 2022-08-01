@@ -1,0 +1,988 @@
+.creditos .imagen_portada,
+#final_cuento .creditos .imagen_portada{
+/*    display: grid;*/
+    background-image: url(../img/estrellas/portada.jpg);
+/*
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-color: #3b57c5;
+}
+#final_cuento .creditos .imagen_portada{
+    background-image: url(../img/estrellas/contraportada.jpg);
+    background-position: 90% 50%;
+    background-color: #33373a;
+}
+#finalBeforeFinal{
+    background-image: url(../img/estrellas/final_fondo.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#finalBeforeFinal .arriba,
+#finalBeforeFinal .abajo{
+    width: 60%;
+    left: 25%;
+    position: absolute;
+}
+#finalBeforeFinal .arriba{
+    top: 5%;
+}
+#finalBeforeFinal .abajo{
+    bottom: 5%;
+}
+#finalBeforeFinal h1,
+#finalBeforeFinal p{
+    color: #fff;
+    font-family: 'tt_normsmedium';
+    font-weight: lighter;
+}
+
+#finalBeforeFinal h1{
+    font-size: 1.9rem;
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+}
+#finalBeforeFinal p{
+    font-size: 1.9rem;
+}
+
+@media 
+only screen and (min-device-width: 200px) and (max-device-width: 823px),
+only screen and (min-width: 200px) and (max-width: 823px) { 
+    #finalBeforeFinal h1{
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+    }
+    #finalBeforeFinal p{
+        font-size: 1rem;
+    }
+}
+#finalBeforeFinal .cont_sol{
+    overflow: hidden;
+    position: absolute;
+}
+#finalBeforeFinal .sol{
+    background-image: url(../img/estrellas/sol.png);
+    width: 1094px;
+    height: 1070px;
+    margin-left: -552px;
+    position: absolute;
+}
+#finalBeforeFinal .solestatico{
+    background-image: url(../img/estrellas/sol_estatico.png);
+    width: 554px;
+    height: 1078px;
+    position: absolute;
+}
+
+#botonFinal{
+    z-index: 9999;
+}
+/*final_fondo*/
+.title h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.estrellas{
+    top: 300px;
+    left: 1010px;
+/*    background-color: blue;*/
+    width: 500px;
+    height: 500px;
+    border-radius: 0 0 100% 0;
+}
+
+.spriteA{ 
+    background-image: url("../img/estrellas/spriteA.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+}
+.spriteB{ 
+    background-image: url("../img/estrellas/spriteB.png");
+/*    background-color: rgba(255,0,0,0.1);*/
+/*    background-color: black;*/
+}
+.spriteC{ 
+    background-image: url("../img/estrellas/spriteC.png");
+/*    background-color: rgba(255,0,0,0.3);*/
+/*    background-color: black;*/
+}
+.spriteD{ 
+    background-image: url("../img/estrellas/spriteD.png");
+/*    background-color: rgba(255,0,0,0.3);*/
+/*    background-color: black;*/
+}
+.spriteE{ 
+    background-image: url("../img/estrellas/spriteE.png");
+/*    background-color: rgba(255,0,0,0.3);*/
+/*    background-color: black;*/
+}
+#escena_00 .fondo{ 
+    background-image: url("../img/estrellas/esc_0_fondo.jpg");
+/*    background-image: url("../img/estrellas/01.jpg");*/
+}
+
+#escena_00 .nenita{
+    width: 545px;
+    height: 437px;
+    top: 309px;
+    left: 575px;
+}
+#escena_00 .planeta{
+    width: 1072px;
+    height: 1055px;
+    top: -74px;
+    left: 631px;
+    background-position: -545px 0px;
+
+}
+.estrella{
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/estrellas/brillo_dimming.png');
+/*    background-color: red;*/
+}
+
+.estrellaA{    animation: fx_estrella1 1s steps(6) infinite;}
+.estrellaB{    animation: fx_estrella2 1.3s steps(9) infinite;}
+.estrellaC{    animation: fx_estrella2 1s steps(9) infinite;}
+.estrellaD{    animation: fx_estrella1 0.9s steps(6) infinite;}
+.estrellaE{    animation: fx_estrella1 1.5s steps(6) infinite;}
+.estrellaF{    animation: fx_estrella2 1.5s steps(9) infinite;}
+.estrellaG{    animation: fx_estrella2 1.5s steps(9) infinite;}
+.estrellaH{    animation: fx_estrella1 1.3s steps(6) infinite;}
+.estrellaI{    animation: fx_estrella1 1.1s steps(6) infinite;}
+.estrellaJ{    animation: fx_estrella2 0.6s steps(9) infinite;}
+
+@keyframes fx_estrella1 {
+  0%    {background-position: 0 0;}
+  50%  {background-position: -300px 0;}
+  100%  {background-position: 0px 0;}
+}
+
+@keyframes fx_estrella2 {
+  0%    {background-position: -50 0;}
+  50%  {background-position: -450px 0;}
+  100%  {background-position: 0px 0;}
+}
+
+#escena_01 .fondo{ 
+    background-image: url("../img/estrellas/esc_1_fondo.jpg");
+}
+#escena_01 .doll{ 
+    top: 610px;
+    left: 320px;
+}
+#escena_01 .doll .cuerpo{ 
+    width: 138px;
+    height: 185px;
+    background-position: 0 -437px;
+}
+#escena_01 .doll .pierna1{ 
+    width: 47px;
+    height: 92px;
+    top: 155px;
+    left: 32px;
+    background-position: -337px -497px;
+}
+#escena_01 .doll .pierna2{ 
+    width: 45px;
+    height: 103px;
+    top: 155px;
+    left: 65px;
+    background-position: -384px -497px;
+}
+#escena_01 .paloma{ 
+    top: 695px;
+    left: 860px;
+}
+#escena_01 .paloma .cuerpo{ 
+    width: 142px;
+    height: 94px;
+    top:10px;
+    background-position: 0px -622px;
+}
+#escena_01 .paloma .ala{ 
+    width: 40px;
+    height: 76px;
+    left:60px;
+    background-position: -142px -621px;
+}
+#escena_01 .perro{ 
+    top: 760px;
+    left: 1142px;
+}
+#escena_01 .perro .poto{ 
+    width: 38px;
+    height: 65px;
+    top: 5px;
+    background-position: -307px -437px;
+}
+#escena_01 .perro .cola{ 
+    width: 74px;
+    height: 46px;
+    left:18px;
+    background-position: -345px -437px;
+}
+#escena_01 .reloj{ 
+    top: 450px;
+    left: 993px;
+}
+#escena_01 .reloj .centro{ 
+    width: 9px;
+    height: 9px;
+    left:36px;
+    top: 35px;
+    background-position: -449px -563px;
+}
+#escena_01 .reloj .minutero{ 
+    width: 9px;
+    height: 31px;
+    left:36px;
+    top: 10px;
+    background-position: -431px -561px;
+}
+#escena_01 .reloj .horario{ 
+    width: 8px;
+    height: 26px;
+    left:36px;
+    top: 19px;
+    background-position: -440px -561px;
+}
+
+#escena_01 .maquina{ 
+    top: 394px;
+    left: 1138px;
+}
+#escena_01 .maquina .rueda1{ 
+    width: 54px;
+    height: 53px;
+    top:40px;
+    left: 0px;
+    background-position: -280px -555px;
+}
+#escena_01 .maquina .rueda2{ 
+    width: 72px;
+    height: 72px;
+    left: 28px;
+    background-position: -207px -555px;
+}
+#escena_01 .maquina .rueda3{ 
+    width: 68px;
+    height: 66px;
+    top: 69px;
+    left: 42px;
+    background-position: -138px -555px;
+}
+
+#escena_01 .silla{ 
+    top: 738px;
+    left: 1337px;
+    width: 168px;
+    height: 118px;
+    background-position: -138px -437px;
+    z-index: 2;
+    display: none;
+}
+#escena_01 .ojos{ 
+    top: 316px;
+    left: 1443px;
+}
+#escena_01 .ojos .ojo1{
+    width: 58px;
+    height: 50px;
+    background-position: -338px -600px;
+} 
+#escena_01 .ojos .ojo2{
+    width: 58px;
+    height: 50px;
+    top: 35px;
+    left: 80px;
+    background-position: -396px -600px;
+} 
+#escena_01 .auto{ 
+    top: 776px;
+    left: 1643px;
+}
+#escena_01 .auto .chassis{
+    width: 158px;
+    height: 85px;
+    background-position: -183px -626px;
+} 
+#escena_01 .auto .rueda{
+    width: 46px;
+    height: 41px;
+    top:48px;
+    left: 38px;
+    background-position: -429px -520px;
+/*    z-index: 2;*/
+} 
+
+#escena_02 .fondo{ 
+    background-image: url("../img/estrellas/esc_2_fondo.jpg");
+}
+#escena_02 .fondo,
+#escena_02 .interact{
+    width: 3684px!important;
+} 
+
+#escena_01 .pelota, 
+#escena_02 .pelota{ 
+    width: 53px;
+    height: 49px;
+    background-position: -348px -722px;
+}
+#escena_01 .pelota{ 
+    top: 816px;
+    left: 250px;
+}
+#escena_02 .pelota{ 
+    top: 780px;
+    left: 2250px;
+}
+#escena_02 .perro_movil{ 
+    top: 680px;
+    left: 2020px;
+}
+#escena_02 .perro_movil .cuerpo{ 
+    width: 188px;
+    height: 124px;
+    background-position: 0px -903px;
+    z-index: 2;
+}
+#escena_02 .perro_movil .pataA{ 
+    width: 16px;
+    height: 53px;
+    top: 100px;
+    left: 20px;
+    background-position: -188px -893px;
+    z-index: 3;
+}
+#escena_02 .perro_movil .pataB{ 
+    width: 16px;
+    height: 53px;
+    top: 100px;
+    left: 30px;
+    background-position: -204px -893px;
+}
+#escena_02 .perro_movil .pataC{ 
+    width: 18px;
+    height: 59px;
+    top: 100px;
+    left: 80px;
+    background-position: -188px -946px;
+}
+#escena_02 .perro_movil .pataD{ 
+    width: 21px;
+    height: 65px;
+    top: 95px;
+    left: 90px;
+    background-position: -204px -946px;
+    z-index: 3;
+}
+
+
+#escena_02 .luna,
+#escena_02 .estrellas{ 
+    top: 270px;
+    left: 2470px;
+}
+#escena_02 .estrellas .estrella1{ top: 2px; left: 120px;}
+#escena_02 .estrellas .estrella2{ top: 80px; left: 170px;}
+#escena_02 .estrellas .estrella3{ top: 70px; left: -30px;}
+#escena_02 .estrellas .estrella4{ top: 170px; left: 55px;}
+#escena_02 .estrellas .estrella5{ top: 290px; left: 35px;}
+#escena_02 .estrellas .estrella6{ top: 200px; left: 135px;}
+#escena_02 .estrellas .estrella7{ top: 70px; left: 85px;}
+#escena_02 .estrellas .estrella8{ top: -30px; left: 75px;}
+#escena_02 .estrellas .estrella9{ top: 110px; left: 25px;}
+#escena_02 .estrellas .estrella10{ top: 150px; left: -15px;}
+
+#escena_02 .luna .lunaA{ 
+    width: 95px;
+    height: 84px;
+    background-position: -158px -720px;
+}
+#escena_02 .luna .lunaB{ 
+    width: 95px;
+    height: 84px;
+    background-position: -253px -720px;
+}
+#escena_02 .luna .lunaC{ 
+    width: 125px;
+    height: 118px;
+    background-position: -253px -804px;
+    top: -20px;
+    left: -18px;
+/*    opacity: 0.5;*/
+}
+#escena_03 .fondo{ 
+    background-image: url("../img/estrellas/esc_3_fondo_estrellas.jpg");
+}
+
+#escena_03 .sistema_planetario{
+    top: 160px;
+    left: 1420px;
+}
+
+#escena_03 .sistema_planetario .jupiter{
+    width: 135px;
+    height: 135px;
+    background-position: -405px -700px;
+    left: -50px;
+}
+
+#escena_03 .sistema_planetario .jupiter_luna1{
+    width: 22px;
+    height: 24px;
+    background-position: -349px -770px;
+}
+#escena_03 .sistema_planetario .jupiter_luna2{
+    width: 19px;
+    height: 19px;
+    background-position: -349px -794px;
+}
+#escena_03 .sistema_planetario .jupiter_luna3{
+    width: 20px;
+    height: 21px;
+    background-position: -371px -770px;
+}
+#escena_03 .sistema_planetario .jupiter_luna4{
+    width: 23px;
+    height: 22px;
+    background-position: -381px -814px;
+}
+#escena_03 .sistema_planetario .jupiter_luna5{
+    width: 27px;
+    height: 28px;
+    background-position: -470px -974px;
+}
+#escena_03 .sistema_planetario .jupiter_luna6{
+    width: 25px;
+    height: 24px;
+    background-position: -470px -1002px;
+}
+#escena_03 .sistema_planetario .jupiter_luna7{
+    width: 26px;
+    height: 25px;
+    background-position: -470px -1026px;
+}
+#escena_03 .sistema_planetario .jupiter_luna8{
+    width: 24px;
+    height: 23px;
+    background-position: -497px -973px;
+}
+#escena_03 .sistema_planetario .jupiter_luna9{
+    width: 21px;
+    height: 21px;
+    background-position: -497px -996px;
+}
+#escena_03 .sistema_planetario .jupiter_luna10{
+    width: 23px;
+    height: 26px;
+    background-position: -497px -1016px;
+}
+#escena_03 .sistema_planetario .jupiter_luna11{
+    width: 19px;
+    height: 20px;
+    background-position: -520px -975px;
+}
+#escena_03 .sistema_planetario .jupiter_luna12{
+    width: 22px;
+    height: 21px;
+    background-position: -520px -995px;
+}
+#escena_03 .sistema_planetario .jupiter_luna13{
+    width: 24px;
+    height: 23px;
+    background-position: -520px -1016px;
+}
+#escena_03 .sistema_planetario .jupiter_cabeza{
+    width: 135px;
+    height: 55px;
+    background-position: -380px -840px;
+    left: -70px;
+    top: 4px;
+}
+
+#escena_03 .ojos{ 
+    top: 546px;
+    left: 643px;
+}
+#escena_03 .ojos .ojo1{
+    width: 46px;
+    height: 40px;
+    background-position: -340px -650px;
+    top: 57px;
+    left: 16px;
+} 
+#escena_03 .ojos .ojo2{
+    width: 29px;
+    height: 40px;
+    top: 5px;
+    left: 70px;
+    background-position: -396px -655px;
+} 
+
+#escena_03 .luna{ 
+    top: 176px;
+    left: 1576px;
+}
+#escena_03 .luna .lunaA{ 
+    width: 106px;
+    height: 100px;
+    background-position: -225px -921px;
+}
+#escena_03 .luna .lunaB{ 
+    width: 130px;
+    height: 124px;
+    background-position: -337px -962px;
+    top: -13px;
+    left: -10px;
+}
+#escena_03 .cruz_del_sur{ 
+    top: 233px;
+    left: 1058px;
+}
+#escena_03 .cruz_del_sur .vertice{ 
+    width: 60px;
+    height: 60px;
+    background-position: -450px -590px;
+}
+
+#escena_03 .cruz_del_sur .norte{
+    left: 32px;
+}
+#escena_03 .cruz_del_sur .este{
+    top: 50px;
+    left: 156px;
+}
+#escena_03 .cruz_del_sur .oeste{
+    top: 120px;
+    left: 7px;
+}
+#escena_03 .cruz_del_sur .sur{
+    top: 233px;
+    left: 198px;
+}
+
+#escena_03 .estrellas_dentro{
+    top: 210px;
+    left: 1045px;
+/*    background-color: red;*/
+    width: 406px;
+    height: 466px;
+}
+
+#escena_04 .fondo{ 
+    background-image: url("../img/estrellas/esc_4_fondo.jpg");
+}
+
+#escena_04 .estrellas{
+    top: 0;
+    left: 0;
+}
+#escena_04 .abue_nena{
+    top: 117px;
+    left: 249px;
+    width: 1496px;
+    height: 777px;
+}
+#escena_04 .conejo1{
+    width: 182px;
+    height: 201px;
+    top: 149px;
+    left: 214px;
+    background-position: -1496px 0px;
+}
+#escena_04 .conejo2{
+    width: 195px;
+    height: 188px;
+    top: 741px;
+    left: 486px;
+    background-position: -1496px -201px;
+}
+#escena_04 .conejo3{
+    width: 174px;
+    height: 175px;
+    top: 656px;
+    left: 870px;
+    background-position: -1496px -389px;
+}
+#escena_04 .conejo4{
+    width: 157px;
+    height: 143px;
+    top: 105px;
+    left: 1458px;
+    background-position: -1496px -564px;
+}
+#escena_04 .conejo5{
+    width: 119px;
+    height: 219px;
+    top: 699px;
+    left: 1727px;
+    background-position: -1691px 0px;
+}
+#escena_04 .conejo6{
+    width: 141px;
+    height: 183px;
+    top: 151px;
+    left: 800px;
+    background-position: -1691px -219px;
+}
+#escena_04 .conejo7{
+    width: 88px;
+    height: 80px;
+    top: 891px;
+    left: 1447px;
+    background-position: -1691px -401px;
+}
+#escena_04 .conejo8{
+    width: 109px;
+    height:97px;
+    top: 400px;
+    left: 1691px;
+    background-position: -1691px -481px;
+
+}
+#escena_04 .conejo9{
+    width: 75px;
+    height:101px;
+    top: 607px;
+    left: 1077px;
+    background-position: -1653px -578px;
+}
+
+#escena_05 .fondo{ 
+    background-image: url("../img/estrellas/esc_5_fondo.jpg");
+    background-size: cover;
+}
+#escena_05 .estrellas{ 
+    top: 0px;
+    left: 0px;
+}
+#escena_05 .recuerdos{ 
+    top: 200px;
+    left: 1100px;
+}
+
+#escena_05 .recuerdos .recuerdo1{   top: 210px;    left: 745px; }
+#escena_05 .recuerdos .recuerdo1 .sin_borde{    width: 406px;    height: 368px; }
+#escena_05 .recuerdos .recuerdo1 .con_borde{    width: 431px;    height: 390px; background-position: 957px 0px; top: -14px; left: -4px; border-radius: 0 0 0 60px;}
+
+#escena_05 .recuerdos .recuerdo2{   top: 323px;    left: 421px; }
+#escena_05 .recuerdos .recuerdo2 .sin_borde{    width: 356px;    height: 476px; background-position: 0px -368px;}
+#escena_05 .recuerdos .recuerdo2 .con_borde{    width: 370px;    height: 480px; background-position: -583px -382px; top: -8px; left: -10px; border-radius: 0 0 220px 0px;}
+
+#escena_05 .recuerdos .recuerdo3{   top: 934px;    left: 522px; }
+#escena_05 .recuerdos .recuerdo3 .sin_borde{    width: 178px;    height: 270px; background-position: 0px -842px;}
+#escena_05 .recuerdos .recuerdo3 .con_borde{    width: 224px;    height: 296px; background-position: -1098px -276px; top: -9px; left: -18px; }
+
+#escena_05 .recuerdos .recuerdo4{   top: 754px;    left: 56px; }
+#escena_05 .recuerdos .recuerdo4 .sin_borde{    width: 270px;    height: 212px; background-position: -406px 0px;}
+#escena_05 .recuerdos .recuerdo4 .con_borde{    width: 282px;    height: 272px; background-position: -1102px 0px; top: -27px; left: -2px; }
+
+#escena_05 .recuerdos .recuerdo5{   top: 714px;    left: 660px; }
+#escena_05 .recuerdos .recuerdo5 .sin_borde{    width: 156px;    height: 146px; background-position: -406px -212px;}
+#escena_05 .recuerdos .recuerdo5 .con_borde{    width: 220px;    height: 178px; background-position: -946px -853px; top: -13px; left: -32px;}
+
+#escena_05 .recuerdos .recuerdo6{   top: 658px;    left: 930px; }
+#escena_05 .recuerdos .recuerdo6 .sin_borde{    width: 200px;    height: 278px; background-position: -354px -364px;}
+#escena_05 .recuerdos .recuerdo6 .con_borde{    width: 224px;    height: 302px; background-position: -1200px -575px; top: -8px; left: -22px;}
+
+#escena_05 .recuerdos .recuerdo7{   top: 594px;    left: 828px; }
+#escena_05 .recuerdos .recuerdo7 .sin_borde{    width: 176px;    height: 144px; background-position: -354px -642px;}
+#escena_05 .recuerdos .recuerdo7 .con_borde{    width: 214px;    height: 166px; background-position: -1166px -876px; top: 0px; left: -26px;}
+
+#escena_05 .recuerdos .recuerdo8{   top: 478px;    left: 1166px; }
+#escena_05 .recuerdos .recuerdo8 .sin_borde{    width: 206px;    height: 132px; background-position: -204px -843px;}
+#escena_05 .recuerdos .recuerdo8 .con_borde{    width: 242px;    height: 158px; background-position: -1385px 0px; top: -20px; left: 0px;}
+
+#escena_05 .recuerdos .recuerdo9{   top: 52px;    left: 860px; }
+#escena_05 .recuerdos .recuerdo9 .sin_borde{    width: 206px;    height: 180px; background-position: -410px -792px;}
+#escena_05 .recuerdos .recuerdo9 .con_borde{    width: 221px;    height: 222px; background-position: -1385px -158px; top: -38px; left: -10px;}
+
+#escena_05 .recuerdos .recuerdo10{   top: 48px;    left: 192px; }
+#escena_05 .recuerdos .recuerdo10 .sin_borde{    width: 206px;    height: 132px; background-position: -218px -972px;}
+#escena_05 .recuerdos .recuerdo10 .con_borde{    width: 242px;    height: 142px; background-position: -946px -712px; top: 0px; left: -14px;}
+
+#escena_05 .recuerdos .recuerdo11{   top: 344px;    left: 58px; }
+#escena_05 .recuerdos .recuerdo11 .sin_borde{    width: 224px;    height: 126px; background-position: -442px -972px;}
+#escena_05 .recuerdos .recuerdo11 .con_borde{    width: 234px;    height: 138px; background-position: -964px -574px; top: -2px; left: 0px;}
+
+#escena_05 .recuerdos .recuerdo12{   top: 58px;    left: 506px; }
+#escena_05 .recuerdos .recuerdo12 .sin_borde{    width: 118px;    height: 120px; background-position: -826px -874px;}
+#escena_05 .recuerdos .recuerdo12 .con_borde{    width: 160px;    height: 174px; background-position: -666px -878px; top: -30px; left: -42px;}
+
+#escena_06 .fondo{           
+    background-image: url("../img/estrellas/esc_6_fondo.jpg");
+}
+#escena_06 .fondo_oscuro{           
+    background-image: url("../img/estrellas/esc_6_fondo_oscuro.jpg");
+}
+
+#escena_06 .luna{
+    top: 77px;
+    left: 719px;
+}
+#escena_06 .luna .luna_clara,
+#escena_06 .luna .luna_oscura{
+    width: 382px;
+    height: 372px;
+}
+#escena_06 .luna .luna_clara{
+    background-position: 0px -372px;
+}
+#escena_06 .sol,
+#escena_06 .sol2{
+    width: 458px;
+    height: 460px;
+    top: 31px;
+    left: 676px;
+    background-position: -382px 0px;
+}
+#escena_06 .nenita{
+    top: 313px;
+    left: 1255px;
+}
+#escena_06 .nenita .cuerpo{
+    width: 325px;
+    height: 607px;
+    background-position: -382px -460px;
+}
+
+#escena_06 .nenita .lentes{
+    width: 194px;
+    height: 235px;
+    top: 96px;
+    left: 205px;
+    background-position: 0px -744px;
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/estrellas/esc_7_fondo.jpg");
+}
+
+#escena_07 .recuerdos{ 
+    top: 310px;
+    left: 1510px;
+    width: 10px;
+    height: 10px;
+}
+#escena_07 .recuerdos .rio_item1{
+    width: 71px;
+    height: 65px;
+    background-position: -194px -745px;
+}
+#escena_07 .recuerdos .rio_item2{
+    width: 71px;
+    height: 67px;
+    background-position: -194px -810px;
+}
+#escena_07 .recuerdos .rio_item3{
+    width: 193px;
+    height: 201px;
+    background-position: -708px -735px;
+}
+#escena_07 .recuerdos .rio_item4{
+    width: 102px;
+    height: 164px;
+    background-position: -708px -936px;
+}
+#escena_07 .recuerdos .rio_item5{
+    width: 165px;
+    height: 157px;
+    background-position: -901px -735px;
+}
+#escena_07 .recuerdos .rio_item6{
+    width: 182px;
+    height: 116px;
+    background-position: -1066px -735px;
+}
+#escena_07 .recuerdos .rio_item7{
+    width: 104px;
+    height: 148px;
+    background-position: -1156px -493px;
+}
+#escena_07 .recuerdos .rio_item8{
+    width: 111px;
+    height: 76px;
+    background-position: -1156px -641px;
+}
+#escena_07 .recuerdos .rio_item9{
+    width: 126px;
+    height: 146px;
+    background-position: -809px -937px;
+}
+#escena_07 .recuerdos .rio_item10{
+    width: 149px;
+    height: 135px;
+    background-position: -935px -893px;
+}
+#escena_07 .recuerdos .rio_item11{
+    width: 118px;
+    height: 89px;
+    background-position: -935px -1028px;
+}
+#escena_07 .recuerdos .rio_item12{
+    width: 75px;
+    height: 64px;
+    background-position: -1209px -855px;
+}
+#escena_07 .recuerdos .rio_item13{
+    width: 124px;
+    height: 90px;
+    background-position: -1084px -853px;
+}
+#escena_07 .recuerdos .rio_item14{
+    width: 81px;
+    height: 131px;
+    background-position: -1084px -943px;
+}
+#escena_07 .recuerdos .rio_item15{
+    width: 121px;
+    height: 87px;
+    background-position: -1166px -943px;
+}
+#escena_07 .recuerdos .rio_item16{
+    width: 85px;
+    height: 73px;
+    background-position: -1163px -1030px;
+}
+
+#escena_07 .nenita,
+#escena_07 .nenita2{
+    top: 360px;
+    left: 737px;
+    width: 448px;
+    height: 242px;
+    background-position: -708px -493px;
+}
+
+#escena_07 .casa{
+    top: 216px;
+    left: 1292px;
+    width: 212px;
+    height: 494px;
+    background-position: -843px 0px;
+}
+
+#escena_08 .fondo{ 
+    background-image: url("../img/estrellas/esc_8_fondo_estrellas.jpg");
+}
+#escena_08 .con_hoyo .partes{ 
+    background-image: url("../img/estrellas/esc_8_fondo.jpg");
+    background-size: cover;
+}
+#escena_08 .con_hoyo .partes.izq{
+    width: 1020px;
+    height: 1080px;
+}
+#escena_08 .con_hoyo .partes.arr{
+    width: 1920px;
+    height: 230px;
+}
+#escena_08 .con_hoyo .partes.der{
+    width: 420px;
+    height: 1080px;
+    left: 1500px;
+    background-position: right;
+}
+#escena_08 .con_hoyo .partes.aba{
+    width: 1920px;
+    height: 420px;
+    background-position: bottom;
+    top: 660px;
+}
+#escena_08 .con_hoyo .hoyo{
+    width: 1099px;
+    height: 893px;
+    top: 218px;
+    left: 981px;
+}
+#escena_08 .abuelo,
+#escena_08 .abuelo2{
+    width: 558px;
+    height: 679px;
+    top: 165px;
+    left: 181px;
+    background-position: 0px -894px;
+}
+#escena_08 .abuela,
+#escena_08 .abuela2{
+    width: 435px;
+    height: 683px;
+    top: 175px;
+    left: 1181px;
+    background-position: -558px -894px;
+    border-radius: 0 20px; 
+}
+#escena_08 .nenita_frente,
+#escena_08 .nenita_frente2{
+    width: 373px;
+    height: 491px;
+    top: 215px;
+    left: 800px;
+    background-position: 0px -1577px;
+}
+#escena_08 .nenita_espalda{
+    width: 280px;
+    height: 358px;
+    top: 545px;
+    left: 981px;
+    background-position: -373px -1577px;
+}
+
+.btn_interact{
+    border-radius: 50%;
+    background-image: radial-gradient( circle, rgba(0,0,0,0.25), rgba(0,0,0,0), rgba(0,0,0,0) );
+}
+
+#escena_00 .btn_interact{ top: 570px; left: 1330px; }
+
+#escena_01 .btn_interact{ top: 470px; left: 1600px; }
+
+#escena_02 .btn_interact{ top: 420px; left: 1250px; }
+
+#escena_03 .btn_interact{ top: 495px; left: 1010px;}
+
+#escena_04 .btn_interact{ top: 182px; left: 1420px; }
+
+#escena_05 .btn_interact{ top: 300px; left: 1655px; }
+
+#escena_06 .btn_interact{ top: 300px; left: 1155px; }
+
+#escena_07 .btn_interact{ top: 170px; left: 210px;}
+
+#escena_08 .btn_interact{ top: 445px; left: 850px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

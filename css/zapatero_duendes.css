@@ -1,0 +1,642 @@
+/*DE ESTE CUENTO*/
+.creditos .imagen_portada{
+/*    display: grid;*/
+    background-image: url(../img/zapatero_duendes/portada.jpg);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+#final_cuento .creditos .imagen_portada{
+    background-image: url(../img/zapatero_duendes/contraportada.jpg);
+}
+
+#escenario{
+    background-color: #fff;
+}
+#escenario .sprite{
+    background-image: url("../img/zapatero_duendes/mega_sprite_2.png"); 
+}
+#escenario .sprite_humo{
+    background-image: url("../img/zapatero_duendes/spite_volutas_humo.png");
+/*    background-color: rgba(255,0,255,0.2);*/
+}
+
+.duende1{
+    width: 168px; height: 220px;
+    background-position: -1801px -426px;
+}
+.duende2{
+    width: 466px; height: 288px;
+    background-position: -653px -850px;
+}
+
+#escenario #escena_01,
+#escenario #escena_01 .interact,
+#escenario #escena_02,
+#escenario #escena_02 .interact{
+    overflow: visible;
+}
+
+#escenario #escena_00 .fondo    { 
+    background-image: url("../img/zapatero_duendes/esc_0_fondo.jpg"); 
+/*    background-image: url("../img/zapatero_duendes/test_pos00.jpg"); */
+    background-size: 100%;
+}
+
+#escena_00 .herramienta,
+#escena_00 .cubridor_caja{
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+}
+#escena_00 .herramienta1{
+    width: 134px; 
+    height: 68px;
+    background-position: -2063px -716px;
+    top: 865px;
+    left: 797px;
+}
+#escena_00 .herramienta2{
+    width: 196px; height: 60px;
+    background-position: -1801px -646px;
+    top: 890px;
+    left: 937px;
+}
+#escena_00 .herramienta3{
+    width: 184px; height: 113px;
+    background-position: -1572px -850px;
+    top: 843px;
+    left: 1137px;
+}
+#escena_00 .herramienta4{
+    width: 190px; height: 72px;
+    background-position: -1934px -850px;
+    top: 860px;
+    left: 1289px;
+}
+#escena_00 .cubridor_caja{
+    width: 216px; height: 136px;
+    background-position: -1969px -426px;
+    top: 780px;
+    left: 1049px;
+}
+#escena_00 .hit_zone{
+    width: 115px;
+    height: 80px;
+/*    background-color: rgba(255,0,0,0.4);*/
+    top: 800px;
+    left: 1085px;
+}
+
+
+#escenario #escena_01 .fondo    {    
+    background-image: url("../img/zapatero_duendes/esc_1_fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: 152px 0px;
+}
+/*#escenario #escena_01 .fondo    {    background-image: url("../img/zapatero_duendes/test_pos01.jpg"); }*/
+#escenario #escena_01 .contenedor_volutas{}
+#escenario #escena_01 .contenedor_volutas .izq{
+    top: 300px;
+    left: 670px;
+}
+#escena_01 .contenedor_volutas .izq .voluta1{
+    width: 225px; height: 104px;
+    background-position: -1049px -716px;
+}
+#escena_01 .contenedor_volutas .izq .voluta2{
+    width: 193px; height: 87px;
+    background-position: -1678px -716px;
+}
+#escena_01 .contenedor_volutas .izq .voluta3{
+    width: 202px; height: 91px;
+    background-position: -1274px -716px;
+}
+#escena_01 .contenedor_volutas .izq .voluta4{
+    width: 178px; height: 78px;
+    background-position: -1969px -562px;
+}
+#escena_01 .contenedor_volutas .der{
+    top: 300px;
+    left: 995px;
+}
+#escena_01 .contenedor_volutas .der .voluta1{
+    width: 229px; height: 108px;
+    background-position: -820px -716px;
+}
+#escena_01 .contenedor_volutas .der .voluta2{
+    width: 202px; height: 91px;
+    background-position: -1476px -716px;
+}
+#escena_01 .contenedor_volutas .der .voluta3{
+    width: 192px; height: 87px;
+    background-position: -1871px -716px;
+}
+#escena_01 .contenedor_volutas .der .voluta4{
+    width: 178px; height: 78px;
+    background-position: -1756px -850px;
+}
+#escena_01 .duende2.duendeA{
+    background-image: url(../img/zapatero_duendes/esc_1_duende_pluma_parada.png);
+    top: 10px;
+    left: 595px;
+    width: 329px;
+    height: 361px;
+    background-position: 0 0;
+}
+#escena_01 .duende2.duendeB{
+     background-image: url(../img/zapatero_duendes/esc_1_duende_pluma_parada.png);
+    top: 75px;
+    left: 972px;
+    width: 286px;
+    background-position: 0 0;
+}
+#escena_01 .zapatos{
+    background-image: url(../img/zapatero_duendes/esc_1_botas.png);
+    width: 1291px;
+    height: 736px;
+    top: 208px;
+    left: 307px;
+/*    opacity: 0.5;*/
+}
+#escena_01 .sprite_guarda{
+    background-image: url(../img/zapatero_duendes/esc_1_guardas.png);
+/*    width: 1291px;*/
+    height: 929px;
+}
+#escena_01 .guarda1{
+    width: 129px;
+    top: 80px;
+    left: 145px;
+}
+#escena_01 .guarda2{
+    width: 129px;
+    top: 76px;
+    left: 1644px;
+    background-position: -129px 0px;
+}
+
+
+#escenario #escena_02 .fondo{    background-image: url(../img/zapatero_duendes/esc_2_fondo.jpg); }   
+/*#escenario #escena_02 .fondo{    background-image: url(../img/zapatero_duendes/test_pos02.jpg); }   */
+#escena_02 .cliente{
+    background-image: url(../img/zapatero_duendes/esc_2_cliente_feliz.png);
+    width: 804px;
+    height: 941px;
+    top: 83px;
+    left: 299px;
+}
+
+#escena_02 .cliente .ceja1{
+    width: 45px; height: 43px;
+    background-position: -2147px -562px;
+    top: 186px;
+    left: 524px;
+}
+#escena_02 .cliente .ceja2{
+    width: 29px; height: 14px;
+    background-position: -2147px -605px;
+    top: 231px;
+    left: 580px;
+}
+#escena_02 .duende1.duendeB{
+    top: 765px;
+    left: 424px;
+}
+#escena_02 .duende1.duendeA{
+    top: 694px;
+    left: 262px;
+}
+#escena_02 .contenedor_volutas{
+    left: 800px;
+    top: -50px;
+}
+#escena_04 .contenedor_volutas{
+    left: 80px;
+    top: 140px;
+}
+#escena_07 .contenedor_volutas{
+    left: 700px;
+    top: -200px;
+}
+#escena_02 .contenedor_volutas .voluta1,
+#escena_04 .contenedor_volutas .voluta1,
+#escena_07 .contenedor_volutas .voluta1{
+    width: 74px;
+    height: 112px;
+    top: 420px;
+    left: 60px;
+}
+#escena_02 .contenedor_volutas .voluta2,
+#escena_04 .contenedor_volutas .voluta2,
+#escena_07 .contenedor_volutas .voluta2{
+    width: 52px;
+    height: 113px;
+    background-position: 0px -112px;
+    top: 420px;
+    left:110px;
+}
+#escena_02 .contenedor_volutas .voluta3,
+#escena_04 .contenedor_volutas .voluta3,
+#escena_07 .contenedor_volutas .voluta3{
+    width: 73px;
+    height: 100px;
+    background-position: -74px 0px;
+    top: 460px;
+    left:100px;
+}
+#escena_02 .contenedor_volutas .voluta4,
+#escena_04 .contenedor_volutas .voluta4,
+#escena_07 .contenedor_volutas .voluta4{
+/*    display: none;*/
+    width: 78px;
+    height: 84px;
+    background-position: -74px -106px;
+    top: 460px;
+    left:102px;
+}
+#escena_02 .contenedor_volutas .voluta5,
+#escena_04 .contenedor_volutas .voluta5,
+#escena_07 .contenedor_volutas .voluta5{
+    width: 33px;
+    height: 87px;
+    background-position: -159px -10px;
+    top: 490px;
+    left:120px;
+}
+#escena_02 .contenedor_volutas .voluta6,
+#escena_04 .contenedor_volutas .voluta6,
+#escena_07 .contenedor_volutas .voluta6{
+    width: 71px;
+    height: 57px;
+    background-position: -200px 0px;
+    top: 474px;
+    left:56px;
+}
+#escena_02 .contenedor_volutas .voluta7,
+#escena_04 .contenedor_volutas .voluta7,
+#escena_07 .contenedor_volutas .voluta7{
+    width: 48px;
+    height: 54px;
+    background-position: -271px 0px;
+    top: 474px;
+    left:75px;
+}
+#escena_02 .contenedor_volutas .voluta8,
+#escena_04 .contenedor_volutas .voluta8,
+#escena_07 .contenedor_volutas .voluta8{
+    width: 47px;
+    height: 76px;
+    background-position: -200px -57px;
+    top: 520px;
+    left:115px;
+}
+#escena_02 .contenedor_volutas .voluta9,
+#escena_04 .contenedor_volutas .voluta9,
+#escena_07 .contenedor_volutas .voluta9{
+    width: 37px;
+    height: 51px;
+    background-position: -156px -132px;
+    top: 462px;
+    left:145px;
+}
+#escena_02 .contenedor_volutas .voluta10,
+#escena_04 .contenedor_volutas .voluta10,
+#escena_07 .contenedor_volutas .voluta10{
+    width: 31px;
+    height: 60px;
+    background-position: -193px -132px;
+    top: 452px;
+    left:145px;
+}
+#escena_02 .cubre_pipa{
+    width: 83px; height: 94px;
+    background-position: -1122px -1008px;
+    top: 508px;
+    left: 903px;
+    display: none;
+}
+
+#escenario #escena_03 .fondo{    background-image: url(../img/zapatero_duendes/esc_3_fondo.jpg); }    
+/*#escenario #escena_03 .fondo{    background-image: url(../img/zapatero_duendes/test_pos03.jpg); }  */
+
+#escena_03 .duende1{
+    top: 12px;
+    left: 622px;
+    transform: scale(0.65);
+}
+#escena_03 .duende2{
+    top: 12px;
+    left: 241px;
+    transform: scale(0.68);
+}
+#escena_03 .zapatos{
+    background-image: url(../img/zapatero_duendes/esc_3_botas.png);
+    width: 530px;
+    height: 390px;
+    top: 121px;
+    left: 436px;
+}
+
+#escena_03 .zapatos .ojo1{
+    width: 105px;
+    height: 27px;
+    background-position: -1997px -646px;
+    top: 206px;
+    left: 128px;
+}
+#escena_03 .zapatos .ojo2{
+    width: 105px;
+    height: 22px;
+    background-position: -1997px -673px;
+    top: 139px;
+    left: 259px;
+}
+
+#escenario #escena_04 .fondo{
+    background-image: url(../img/zapatero_duendes/esc_4_fondo.jpg);
+/*    background-image: url(../img/zapatero_duendes/test_pos04.jpg);*/
+    background-size: 100%;
+} 
+#escena_04 .persona1{
+    width: 214px;
+    height: 290px;
+    background-position: -820px -426px;
+    top: 676px;
+    left: 399px;
+}
+#escena_04 .persona2{
+    width: 154px;
+    height: 290px;
+    background-position: -1034px -426px;
+    top: 638px;
+    left: 800px;
+}
+#escena_04 .persona3{
+    width: 244px;
+    height: 290px;
+    background-position: -1188px -426px;
+    top: 638px;
+    left: 954px;
+}
+#escena_04 .persona4{
+    width: 205px;
+    height: 290px;
+    background-position: -1432px -426px;
+    top: 643px;
+    left: 1234px;
+}
+#escena_04 .persona5{
+    width: 164px;
+    height: 290px;
+    background-position: -1637px -426px;
+    top: 643px;
+    left: 1439px;
+}
+
+#escenario #escena_05 .fondo{    background-image: url(../img/zapatero_duendes/esc_5_fondo.jpg); }    
+/*#escenario #escena_05 .fondo{    background-image: url(../img/zapatero_duendes/test_pos05.jpg); }    */
+
+#escena_05 .duende1{
+    top: 78px;
+    left: 520px;
+    height: 200px;
+/*
+    transform: scale(0.27);
+    -webkit-transform: scale(0.27);
+*/
+}
+#escena_05 .duende1.flipped{
+    top: 627px;
+    left: 170px;
+/*
+    transform: scaleX(-0.27) scaleY(0.27);
+    -webkit-transform: scaleX(-0.27) scaleY(0.27);
+*/
+}
+#escena_05 .duende2{
+    top: 257px;
+    left: 1186px;
+/*    transform: scaleX(-0.23) scaleY(0.23);*/
+}
+#escena_05 .cubre1{
+    width: 295px; 
+    height: 79px;
+    top: 183px;
+    left: 467px;
+    background-position: 0 -850px;
+/*    background-color: rgba(0,255,225,0.4);*/
+}
+#escena_05 .cubre2{
+    width: 186px; 
+    height: 255px;
+    top: 651px;
+    left: 219px;
+    background-position: 0 -931px;
+/*    background-color: rgba(0,255,225,0.4);*/
+}#escena_05 .cubre3{
+    width: 120px; 
+    height: 135px;
+    top: 402px;
+    left: 1377px;
+    background-position: -186px -931px;
+/*    background-color: rgba(0,255,225,0.4);*/
+}
+#escena_05 .gato1{
+    width: 145px; 
+    height: 183px;
+    top: 673px;
+    left: 675px;
+    background-position: -302px -850px;
+/*    background-color: rgba(0,255,225,0.4);*/
+}
+#escena_05 .gato2{
+    width: 191px; 
+    height: 248px;
+    top: 593px;
+    left: 637px;
+    background-position: -464px -850px;
+}
+
+#escenario #escena_06 .fondo{    background-color: #fff; } 
+/*#escenario #escena_06 .fondo{    background-image: url(../img/zapatero_duendes/test_pos06.jpg); }*/
+
+#escena_06 .gato{
+    width: 787px; 
+    height: 620px;
+    top: -140px;
+    left: 303px;
+    background-position: 0 0;
+/*    background-color: rgba(0,255,225,0.4);*/
+} 
+#escena_06 .primer_plano{
+    background-image: url(../img/zapatero_duendes/esc_6_duendes.png);
+    width: 1529px;
+    height: 873px;
+    top: 120px;
+    left: 187px;
+}
+#escena_06 .primer_plano .flor{
+    width: 129px;
+    height: 129px;
+    top: 194px;
+    left: 696px;
+    background-position: 0 -720px;
+}
+
+#escenario #escena_07 .fondo{    background-image: url(../img/zapatero_duendes/esc_7_fondo.jpg); } 
+/*#escenario #escena_07 .fondo{    background-image: url(../img/zapatero_duendes/test_pos07.jpg); }*/
+
+#escena_07 .cubridor_caja{
+    top: 788px;
+    left: 807px;
+    width: 203px; 
+    height: 158px;
+    background-position: -1122px -850px;
+}
+#escena_07 .ropa1,
+#escena_07 .ropa3{
+    top: 807px;
+    left: 1350px;
+    width: 94px; 
+    height: 97px;
+    background-position: -1326px -850px;
+    z-index: 2;
+}
+#escena_07 .ropa2{
+    top: 880px;
+    left: 1375px;
+    width: 62px; 
+    height: 53px;
+    background-position: -1325px -946px;
+    z-index: 5;
+}
+#escena_07 .ropa3{
+    top: 830px;
+    left: 1405px;
+    z-index: 4;
+/*
+    width: 153px; 
+    height: 47px;
+    background-position: -1419px -850px;
+*/
+}
+#escena_07 .ropa4{
+    top: 865px;
+    left: 1350px;
+    width: 76px; 
+    height: 43px;
+    background-position: -1419px -900px;
+    z-index: 2;
+}
+#escena_07 .hit_zone{
+    width: 170px;
+    height: 50px;
+/*    background-color: rgba(255,0,255,0.4);*/
+    top: 795px;
+    left: 823px;
+}
+
+#escenario #escena_08 .fondo{    background-image: url(../img/zapatero_duendes/esc_8_fondo.jpg); } 
+#escenario #escena_08 .fondo.fondo2{    
+    background-image: url(../img/zapatero_duendes/esc_8_fondo2.png);
+    background-repeat: no-repeat;
+    background-position: 231px 119px;
+} 
+
+/*#escenario #escena_08 .fondo{    background-image: url(../img/zapatero_duendes/test_pos08.jpg); } */
+
+#escena_08 .chinita{
+    top: 769px;
+    left: 136px;
+    width: 314px; 
+    height: 229px;
+}
+
+#escena_08 .chinita1{
+    top: 79px;
+    left: 60px;
+    width: 253px; 
+    height: 151px;
+    background-position: -820px 0px;
+}
+#escena_08 .chinita2{
+    top: 0;
+    left: 0;
+    width: 314px; 
+    height: 229px;
+    background-position: -820px -151px;
+}
+#escena_08 .escarabajo{
+    top: 620px;
+    left: 1447px;
+    width: 308px; 
+    height: 338px;
+}
+#escena_08 .escarabajo1{
+    width: 308px; 
+    height: 338px;
+    background-position: -1143px 0px;
+}
+#escena_08 .escarabajo2{
+    top:-60px;
+    left: -5px;
+    width: 343px; 
+    height: 420px;
+    background-position: -1455px 0px;
+}
+#escena_08 .polilla{
+    top: 52px;
+    left: 760px;
+    width: 396px; 
+    height: 262px;
+    background-position: -1805px 0px;
+}
+
+#escena_00 .btn_interact{ top: 770px; left: 1090px; z-index: 999999; }
+
+#escena_01 .btn_interact{ top: 565px; left: 780px; }
+
+#escena_02 .btn_interact.btn_cejas{ top: 390px; left: 630px; }
+#escena_02 .btn_interact.btn_gatos{ top: 725px; left: 1280px; }
+
+#escena_03 .btn_interact{ top: 415px; left: 820px;}
+
+#escena_04 .btn_interact{ top: 639px; left: 1161px; }
+
+#escena_05 .btn_interact{ top: 785px; left: 259px; }
+#escena_05 .btn_interact.btn_techo{ top: 205px; left: 325px; }
+/*#escena_05 .btn_interact.btn_gato{ top: 720px; left: 665px; }*/
+#escena_05 .btn_interact.btn_silla{ top: 780px; left: 1340px; }
+
+#escena_06 .btn_interact{ top: 460px; left: 345px; }
+#escena_06 .btn_interact.btn_flor{ top: 200px; left: 1075px; }
+
+#escena_07 .btn_interact{ top: 800px; left: 860px; z-index: 999999;}
+
+#escena_08 .btn_interact{ top: 280px; left: 906px;}
+
+#escena_00 .drag_tolltip{
+    top: 590px;
+    left: 1050px;
+}
+#escena_07 .drag_tolltip{
+    top: 610px;
+    left: 820px;
+}
+
+@media 
+only screen and (min-device-width: 200px) and (max-device-width: 823px),
+only screen and (min-width: 200px) and (max-width: 823px) { 
+    #escena_00 .drag_tolltip{
+        top: 490px;
+        left: 1000px;
+    }
+    #escena_07 .drag_tolltip{
+        top: 500px;
+        left: 765px;
+    }
+}
+/*Hasta acá el cuento*/
+
+

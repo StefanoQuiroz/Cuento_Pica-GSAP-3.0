@@ -1,0 +1,307 @@
+/*DE ESTE CUENTO*/
+#escenario #escena_00 .fondo    {    background-image: url("../img/esc_0_fondo2.jpg"); }
+#escenario #escena_00 .fondo2   {    background-image: url("../img/esc_0_fondo.jpg"); }
+
+#escenario #escena_01 .fondo    {    background-image: url("../img/esc_1_fondo.jpg"); }
+#escenario #escena_01 .fondo2   {    background-image: url("../img/esc_1_fondo2.jpg"); }
+
+#escenario #escena_02 .fondo   {    background-image: url("../img/esc_2_fondo.jpg"); }
+#escenario #escena_02 .ojos   {    
+    background-image: url("../img/esc_2_ojos.png"); 
+    width: 766px;
+    height: 129px;
+    top: 39px;
+    left: 523px;
+}
+
+#escenario #escena_03 .fondo   {    background-image: url("../img/esc_3_fondo.jpg"); }
+#escenario #escena_03 .ojo{
+    width:100px;
+    height: 100px;
+    opacity: 0.6;
+    top: 410px;
+    left: 790px;
+}
+#escenario #escena_03 .ojo_der{
+    left: 1010px;
+    top: 400px;
+}
+#escenario #escena_03 .ojo .parpado{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/esc_3_parpado_izq.png);
+    background-repeat: no-repeat;
+    background-position: 5px 1px;
+}
+#escenario #escena_03 .ojo_der .parpado{
+    background-image: url(../img/esc_3_parpado_der.png);
+    background-position: 1px 1px;
+}
+#escenario #escena_03 .ojo .lagrima_1,
+#escenario #escena_03 .ojo .lagrima_2,
+#escenario #escena_03 .ojo .lagrima_3{
+    width: 59px;
+    height: 115px;
+    top: 79px;
+    left: 15px;
+}
+#escenario #escena_03 .ojo_izq .lagrima_1{background-image: url(../img/esc_3_lagrima_izq_1.png);}
+#escenario #escena_03 .ojo_izq .lagrima_2{background-image: url(../img/esc_3_lagrima_izq_2.png);}
+#escenario #escena_03 .ojo_izq .lagrima_3{background-image: url(../img/esc_3_lagrima_izq_3.png);}
+#escenario #escena_03 .ojo_der .lagrima_1{background-image: url(../img/esc_3_lagrima_der_1.png);}
+#escenario #escena_03 .ojo_der .lagrima_2{background-image: url(../img/esc_3_lagrima_der_2.png);}
+#escenario #escena_03 .ojo_der .lagrima_3{background-image: url(../img/esc_3_lagrima_der_3.png);}
+
+#escenario #escena_03 .mandibula{
+    background-image: url(../img/esc_3_mandibula.png);
+    width: 141px;
+    height: 92px;
+    top: 703px;
+    left: 896px;
+}
+
+#escenario #escena_04 .fondo   {    background-image: url("../img/esc_4_fondo.jpg"); }
+
+#escenario #escena_04 .fx2{
+    background-image: url("../img/esc_4_fx2.jpg");
+    width: 778px;
+    height: 410px;
+    top: 112px;
+    left: 1040px;
+    animation: fx_fondo2 0.6s steps(4) infinite;
+}
+
+@keyframes fx_fondo2 {
+  0%    {background-position: 0 0;}
+  100%  {background-position: -3112px 0;}
+}
+#escenario #escena_04 .raton   {
+    top: 500px;
+    left: 460px;
+    width: 170px;
+    height: 135px;
+    background-size: cover;
+    transform: rotate(-45deg);
+    transform-origin: 90px 90px;
+    -webkit-transform: rotate(-45deg);
+    -webkit-transform-origin: 90px 90px;
+}
+#escenario #escena_04 .raton .cuerpo  {
+    background-image: url("../img/esc_4_raton_cuerpo.png");
+    width: 94px;
+    height: 100px;
+    left: 76px;
+    top: 34px;
+}
+#escenario #escena_04 .raton .cola  {
+    background-image: url("../img/esc_4_cola.png");
+    width: 85px;
+    height: 87px;
+    transform: rotate(-75deg);
+    transform-origin: 83px 82px;
+    -webkit-transform: rotate(-75deg);
+    -webkit-transform-origin: 83px 82px;
+}
+#escenario #escena_04 .pasto   {
+    background-image: url("../img/esc_4_pasto.png");
+    width: 536px;
+    height: 296px;
+    top: 623px;
+    left: 842px;
+}
+
+#escenario #escena_05 .fondo   {    background-image: url("../img/esc_5_fondo.jpg"); }
+#escenario #escena_05 .hojas   {
+    background-image: url("../img/esc_5_hojas.png");
+    width: 668px;
+    height: 651px;
+    top: 0;
+    left: 0;
+}
+#escenario #escena_05 .brazo   {
+    background-image: url("../img/esc_5_brazo_raton.png");
+    width: 266px;
+    height: 494px;
+    top: 0;
+    left: 618px;
+}
+#escenario #escena_05 .leon{
+    left: 170px;
+    top: 290px;
+}
+#escenario #escena_05 .leon .parpados{
+    left: 340px;
+    top: 310px;
+    width: 100px;
+    height: 110px;
+}
+#escenario #escena_05 .leon .parpados .parpado_izq{
+    background-image: url(../img/esc_5_leon_parpado_izq.png);
+    left: 16px;
+    top: 74px;
+    width: 20px;
+    height: 29px;
+}
+#escenario #escena_05 .leon .parpados .parpado_der{
+    background-image: url(../img/esc_5_leon_parpado_der.png);
+    left: 68px;
+    top: 5px;
+    width: 24px;
+    height: 27px;
+}
+#escenario #escena_05 .leon .cuerpo{
+    background-image: url("../img/esc_5_leon.png");
+    width: 497px;
+    height: 734px;
+    top: 0;
+    left: 180px;
+}
+#escenario #escena_05 .leon .cola{
+    background-image: url("../img/esc_5_cola_leon.png");
+    width: 192px;
+    height: 365px;
+    top: 350px;
+    left: 25px;
+}
+
+#escenario #escena_06 .fondo {    background-image: url("../img/esc_6_fondo_dia.jpg"); }
+#escenario #escena_06 .fondo2 {    background-image: url("../img/esc_6_fondo_noche.jpg"); }
+#escenario #escena_06 .estrella {
+    width: 125px;
+    height: 125px;
+}
+#escenario #escena_06 .estrella1 {
+    background-image: url("../img/esc_6_estrella_1.jpg");
+    top: 93px;
+    left: 100px;
+}
+#escenario #escena_06 .estrella2 {
+    background-image: url("../img/esc_6_estrella_2.jpg");
+    top: 23px;
+    left: 267px;
+}
+#escenario #escena_06 .estrella3 {
+    background-image: url("../img/esc_6_estrella_3.jpg");
+    top: 82px;
+    left: 407px;
+}
+#escenario #escena_06 .estrella4 {
+    background-image: url("../img/esc_6_estrella_4.jpg");
+    top: 244px;
+    left: 308px;
+}
+#escenario #escena_06 .estrella5 {
+    background-image: url("../img/esc_6_estrella_5.jpg");
+    top: 0px;
+    left: 758px;
+}
+
+#escenario #escena_07 .fondo   {    background-image: url("../img/esc_7_fondo.jpg"); }
+#escenario #escena_07 .mano   {    
+    background-image: url("../img/esc_7_mano.png");
+    width: 278px;
+    height: 121px;
+    top: 568px;
+    left: 224px;
+    transform: rotate(90deg);
+    transform-origin: 40px 60px;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: 40px 60px;
+}
+#escenario #escena_07 .parpado   {    
+    background-image: url("../img/esc_7_parpado.png");
+    width: 111px;
+    height: 99px;
+    top: 167px;
+    left: 1694px;
+    opacity:0;
+    -webkit-opacity:0;
+}
+#escenario #escena_07 .cabeza_raton{    
+    background-image: url("../img/esc_7_cabeza.png");
+    width: 248px;
+    height: 225px;
+    top: 387px;
+    left: 203px;
+}
+#escenario #escena_07 .cabeza_raton .parpado_raton{
+    width: 50px;
+    height: 40px;
+    left: 115px;
+    top:70px;
+    background-image: url("../img/esc_7_parpado_rata.png");
+    background-repeat: no-repeat;
+    background-position: 9px 5px;
+}    
+#escenario #escena_07 .luna{    
+    background-image: url("../img/esc_7_luna.png");
+    width: 390px;
+    height: 421px;
+    top: 21px;
+    left: 0px;
+}
+#escenario #escena_07 .estrella2{
+    background-image: url("../img/esc_7_estrella2.png");
+    width: 169px;
+    height: 218px;
+    top: 417px;
+    left: 0px;
+} 
+#escenario #escena_07 .estrella3{
+    background-image: url("../img/esc_7_estrella3.png");
+    width: 190px;
+    height: 197px;
+    top: 55px;
+    left: 287px;
+} 
+
+#escenario #escena_07 .estrella4{
+    background-image: url("../img/esc_7_estrella4.png");
+    width: 114px;
+    height: 102px;
+    top: 0px;
+    left: 203px;
+} 
+#escenario #escena_07 .estrella5{
+    background-image: url("../img/esc_7_estrella5.png");
+    width: 81px;
+    height: 67px;
+    top: 0px;
+    left: 0px;
+}
+
+#escenario #escena_07 .estrella6{
+    background-image: url("../img/esc_7_estrella6.png");
+    width: 207px;
+    height: 215px;
+    top: 656px;
+    left: 708px;
+}    
+#escenario #escena_07 .estrella7{
+    background-image: url("../img/esc_7_estrella7.png");
+    width: 199px;
+    height: 199px;
+    top: 646px;
+    left: 522px;
+}    
+
+#escenario #escena_00{ z-index: 8;}
+#escenario #escena_01{ z-index: 7;}
+#escenario #escena_02{ z-index: 6;}
+#escenario #escena_03{ z-index: 5;}
+#escenario #escena_04{ z-index: 4;}
+#escenario #escena_05{ z-index: 3;}
+#escenario #escena_06{ z-index: 2;}
+#escenario #escena_07{ z-index: 1;}
+
+#escena_01 .btn_interact{ top: 520px; left: 790px; }
+#escena_02 .btn_interact{ top: 120px; left: 880px; }
+#escena_03 .btn_interact{ top: 480px; left: 1170px; }
+#escena_04 .btn_interact{ top: 650px; left: 640px; }
+#escena_04 .btn_interact.secundario{ top: 540px; left: 1410px; }
+#escena_05 .btn_interact{ top: 500px; left: 460px; }
+#escena_05 .btn_interact.secundario{ top: 70px; left: 790px; }
+#escena_06 .btn_interact{ top: 600px; left: 1045px; }
+#escena_07 .btn_interact{ top: 700px; left: 340px; }
+
+/*Hasta acá el cuento*/
